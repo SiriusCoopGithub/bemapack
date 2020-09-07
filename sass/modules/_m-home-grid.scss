@@ -1,7 +1,7 @@
 
 /********************wrap page home********************/
-.wrapper{
-    
+.l-wrapper{
+
     /********************section banner********************/
     .section__banner{
         display: grid;
@@ -9,11 +9,12 @@
 
                 .l-banner-img {
                     display: grid;
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
                     grid-template-rows: repeat(2, 1fr);
                     gap: 0px;
                     grid-template-areas:
                     "l-banner-img l-banner-img .l-banner-img";
+
                     grid-area: l-banner-img;
                     .l-img { grid-area: l-img; }
                 
@@ -26,7 +27,7 @@
                 
             
 
-        }
+    }
     /********************section detail********************/
     .section__details{
 
@@ -38,13 +39,11 @@
 
         .l-section--logos { grid-area: l-section-logos; }
     }
-
     /********************section creations********************/
     .section__creations{
 
         .l-section--creations { grid-area: l-section-creations; }   
-        }
-
+    }
     /********************section realisations********************/
     .section__realisations{
 
