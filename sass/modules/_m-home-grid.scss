@@ -1,0 +1,65 @@
+
+/********************wrap page home********************/
+.wrapper{
+    
+    /********************section banner********************/
+    .section__banner{
+        display: grid;
+        margin-left: 0;
+
+                .l-banner-img {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    gap: 0px;
+                    grid-template-areas:
+                    "l-banner-img l-banner-img .l-banner-img";
+                    grid-area: l-banner-img;
+                    .l-img { grid-area: l-img; }
+                
+                    .l-detail { grid-area: l-detail; }
+                    
+                    .l-btn { grid-area: l-btn; }
+                    
+                    .l-logo\/det { grid-area: l-logo\/det; }
+                }
+                
+            
+
+        }
+    /********************section detail********************/
+    .section__details{
+
+        .l-section--detail { grid-area: l-section-detail; }
+        
+    }
+    /********************section logo********************/
+    .section__logos{
+
+        .l-section--logos { grid-area: l-section-logos; }
+    }
+
+    /********************section creations********************/
+    .section__creations{
+
+        .l-section--creations { grid-area: l-section-creations; }   
+        }
+
+    /********************section realisations********************/
+    .section__realisations{
+
+        .l-section--realisations { grid-area: l-section-realisations; }
+
+    }
+    /********************section ajouts********************/
+    .section__ajouts{
+        .l-section--ajouts { grid-area: l-section-ajouts; }
+
+    }
+    
+
+
+}
+
+
+

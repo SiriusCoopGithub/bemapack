@@ -2,7 +2,6 @@
 
 <html lang="fr">
     <head>
-        
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -11,84 +10,88 @@
     </head>
 
     <body>
-        <header>
-            <div class="l-header">
-                <!-- img menu logo-->
-                <div class="l-logo">
-                    <a href="index.html">
-                        <img class="l-logo__mobile" src=".\img\Logo.png" alt="logo-bemapack" title="logo-bemapack"/>
-                    </a>
+        <div class="wrapper">
+        
+            <header>
+                <div class="l-header">
+                    <!-- img menu logo-->
+                    <div class="l-logo">
+                        <a href="index.html">
+                            <img class="l-logo__mobile" src=".\img\Logo.png" alt="logo-bemapack" title="logo-bemapack"/>
+                        </a>
+                    </div>
+
+                    <!-- img menu ham-->
+                    <div id="menu-hamburger" class="menu-hamburger">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div id="menu-up"></div>
+
+                    <!--nav menu-->
+                    <div id="menu-principale" class="l-nav__main">
+                        <nav>
+                            <ul>
+                                <li><a class="is-active hover" href="index.html">Accueil</a></li>
+                                <li><a class="is-active hover" href="realisations.html">Réalisations</a></li>
+                                <li><a class="is-active hover" href="catalogue.html">Catalogue</a></li>
+                                <li><a class="is-active hover blue-contact" href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
+            </header>
 
-                <!-- img menu ham-->
-                <div id="menu-hamburger" class="menu-hamburger">
-                    <span></span><span></span><span></span><span></span>
-                </div>
-                <div id="menu-up"></div>
+            <main>
 
-                <!--nav menu-->
-                <div id="menu-principale" class="l-nav__main">
-                    <nav>
-                        <ul>
-                            <li><a class="is-active hover" href="index.html">Accueil</a></li>
-                            <li><a class="is-active hover" href="realisations.html">Réalisations</a></li>
-                            <li><a class="is-active hover" href="catalogue.html">Catalogue</a></li>
-                            <li><a class="is-active hover blue-contact" href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+                <!--section contact -->
+                <div class="section__contact">
+                    <img class="bg__banner " src=".\img\background-header.png" alt="logo-bemapack" title="logo-bemapack"/>
 
-        <main>
-            <!--section contact -->
-            <div class="section__contact">
-                <img class="bg__contact" src=".\img\background-header.png" alt="logo-bemapack" title="logo-bemapack"/>
+                    <iframe class="header__map two three" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4777.882533218613!2d5.833688552337858!3d50.62721127722391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c08c7cc2efffff%3A0xbbc40094b67f17d1!2sAvenue%20du%20Parc%2022%2C%204650%20Herve!5e0!3m2!1sfr!2sbe!4v1599081395550!5m2!1sfr!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="bemapack" title="bemapack"></iframe> 
 
-                <iframe class="header__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4777.882533218613!2d5.833688552337858!3d50.62721127722391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c08c7cc2efffff%3A0xbbc40094b67f17d1!2sAvenue%20du%20Parc%2022%2C%204650%20Herve!5e0!3m2!1sfr!2sbe!4v1599081395550!5m2!1sfr!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="bemapack" title="bemapack"></iframe> 
+                    <img class="header__mobile one" src=".\img\header-mobile.png" alt="bemapack" title="bemapack"/>
+                    <img class="l-logo__lg one" src=".\img\Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/>
+                    <img class="point__contact one" src=".\img\Points.png" alt="bemapack" title="bemapack"/>
 
-                <img class="header__mobile" src=".\img\header-mobile.png" alt="bemapack" title="bemapack"/>
-                <img class="l-logo__lg" src=".\img\Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/>
-                <img class="point__contact" src=".\img\Points.png" alt="bemapack" title="bemapack"/>
-
-                
-                <div class="description">
-                    <h1 class="title"> NOUS CONTACTER</h1>
-                    <p class="detail">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Libero, eveniet accusantium placeat possimus dolorum atque id labore cupiditate, 
-                        saepe quis magni quos facere reprehenderit voluptatem quas ipsa cumque debitis 
-                        perspiciatis!
-                    </p>
-                </div>
-
-                <!--Contact presentation -->    
-                
-                <div class="wrap__page--contact">
-                    <h2 class="title__page--contact">Contact</h2>
-            
-                    <form name="contact_form" id="contact-form" method="post">
-                        <div class="formulaire">
-                            <input type="text" name="name" id="name" placeholder="Nom" required /><br>
-                            <input type="text" name="firstname" id="firstname" placeholder="Prénom" required /><br>
-                            <input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone" required><br>
-                            <input type="email" name="email" id="email" placeholder="E-mail: " required>
-                            <textarea name="message" id="message" placeholder="Vos questions ou suggestions: " required></textarea><br>
-                        
-                        <p class="message"><input  type="checkbox" name="checkbox" id="checkbox" class="checkbox" value="conditions">
-                            <a class="couleur" href="" target=_blank></a>
+                    
+                    <div class="description">
+                        <h1 class="title"> NOUS CONTACTER</h1>
+                        <p class="detail">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Libero, eveniet accusantium placeat possimus dolorum atque id labore cupiditate, 
+                            saepe quis magni quos facere reprehenderit voluptatem quas ipsa cumque debitis 
+                            perspiciatis!
                         </p>
-                        <br>
-                        <a class=" btn btn__contact" href="#contact" type="submit" id="form-send" value="envoyer" placeholder="Envoyer"> Envoyer</a>
-                        
-                    </div >
+                    </div>
 
-                        <div id="message-confirmation"></div>
-                    </form>
+                    <!--Contact presentation -->    
+                    
+                    <div class="wrap__page--contact">
+                        <h2 class="title__page--contact">Contact</h2>
+                
+                        <form name="contact_form" id="contact-form" method="post">
+                            <div class="formulaire">
+                                <input type="text" name="name" id="name" placeholder="Nom" required /><br>
+                                <input type="text" name="firstname" id="firstname" placeholder="Prénom" required /><br>
+                                <input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone" required><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail: " required>
+                                <textarea name="message" id="message" placeholder="Vos questions ou suggestions: " required></textarea><br>
+                            
+                            <p class="message"><input  type="checkbox" name="checkbox" id="checkbox" class="checkbox" value="conditions">
+                                <a class="couleur" href="" target=_blank></a>
+                            </p>
+                            <br>
+                            <a class=" btn btn__contact" href="#contact" type="submit" id="form-send" value="envoyer" placeholder="Envoyer"> Envoyer</a>
+                            
+                        </div >
+
+                            <div id="message-confirmation"></div>
+                        </form>
+                    </div>
+
                 </div>
 
-            </div>
-
+        </div>
 
         </main>
 
