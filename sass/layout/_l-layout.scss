@@ -7,7 +7,7 @@
     "l-wrapper l-wrapper l-wrapper"
     "l-wrapper . l-wrapper"
     "l-footer l-footer l-footer";
-    
+
     /********************wrapper********************/
 
     .l-wrapper {
@@ -19,7 +19,7 @@
         "l-header l-header l-header"
         "l-banner-img  l-banner-img  l-banner-img .";
         grid-area: l-wrapper;
-    
+
         grid-template-areas:
         "l-banner l-banner l-banner ."
         ". . . ."
@@ -27,8 +27,8 @@
     /********************HEADER********************/
     .l-header {
         display: inline-grid;
-        
-        
+
+
         grid-template-columns: 1fr 1fr 5fr;
         grid-template-rows: 1fr;
         gap: 1px 1px;
@@ -41,102 +41,101 @@
             background-color: map-get($colors,primary);
             z-index: 999;
             position: fixed;
-            
+
             @media screen and (min-width: map-get($break-point, md)) {
                 grid-template-areas:
             "l-logo l-logo-lg l-menu ";
                 background-color:transparent;
-                
-                
+
+
             }
-            
+
             .l-logo__mobile{
                 display:grid;
                 width: 2.5rem;
                 margin:1rem ;
                 z-index: 1999;
                 position:fixed;
-                
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: inline-block;
                     margin: 1rem;
                     width: 2.5rem;
                     position: relative;
-                    
+
                 }
             }
-        
+
             .l-logo__lg{
                 display:grid;
                 width: 11.5rem;
                 margin:1rem auto auto 4rem ;
                 z-index: 1999;
-                
-                
+
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: grid;
                     margin: 0.8rem auto auto 4rem;
                     width: 12.5rem;
                     position: relative;
-                
-                    
-                    
+
+
+
                 }
             }
-    
-            .l-logo { 
+
+            .l-logo {
                 grid-area: l-logo;
                 position: absolute;
                 z-index: 1999;
 
             }
-        
+
             .l-nav__main.l-menu {
                 grid-area: l-menu;
                 z-index: 999;
                 display: none;
-                
-                @include transition(.2s ease-in-out);
-            
+
+
                 background: map-get($colors,primary);
-            
+
                 &.is-visible {
                     right: 0;
                     display: inline-block;
                     right: auto;
-            
+
                 }
                 @media screen and (min-width: map-get($break-point, md)) {
                     background: none;
                     width: auto;
                     height: auto;
                     display: grid;
-                    
-                    
+
+
                     right: 0;
                     background: transparent;
-            
+
                 }
-            
+
                 nav{
-                    
+
                     margin-left: auto;
                     margin-right: auto;
-                
-            
+
+
                 ul {
-                    
+
                     padding-top: 1rem;
                     width: auto;
                     height:100vh;
                     margin-left: 0;
                     text-align: center;
-                
-            
+
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         z-index: 999;
                         width: auto;
-            
+
                         text-align: right;
                         position: inherit;
                         margin: auto 0 auto -4rem;
@@ -144,61 +143,61 @@
                         font-size: 18px;
 
                     }
-                    
-                    
+
+
                 }
                 li {
                     position: relative;
                     display: block;
                     margin-top: 3rem;
-            
-                
+
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         display: inline-block;
                         margin:auto 0rem auto 0rem;
-                        
+
                         &:hover {
-                            transform: scale(.9); 
+                            transform: scale(.9);
                         }
                     }
-            
-    
-                    
+
+
+
                 }
                 a {
-                        
+
                     text-decoration: none;
                     padding: 1rem 1.5rem;
                     text-align: center;
                     color: map-get($colors,main);
                     font-size: 25px;
-                    
-            
-            
+
+
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         color: map-get($colors,main);
                         padding: 0.2rem 0.5rem;
                         margin:auto 1rem auto 1rem;
-            
-            
+
+
                     &:hover, &.is-active {
                         right: 0;
                     }
-                
-            
+
+
                     &.blue-contact{
                         color: map-get($colors,primaryGreen);
                     }
                     }
-            
-            
+
+
                 }
-            
-                
-        
+
+
+
             @media screen and (min-width: map-get($break-point, md)) {
                 a.hover{
-            
+
                     &:hover:before {
                         display: grid;
                         content: "";
@@ -210,7 +209,7 @@
                         border-bottom: 3px solid map-get($colors , primaryGreen );
                         border-left: 3px solid map-get($colors , primaryGreen );
                     }
-            
+
                     &:hover:after {
                         display: block;
                         content: "";
@@ -223,29 +222,29 @@
                         border-right: 3px solid map-get($colors , primaryGreen );;
                     }
                 }
-            
+
             }
                 }
             }
             #menu-up{
                 display: none;
-                
+
                 @media screen and (min-width: map-get($break-point, md)) {
                 width: 100%;
                 height: 4rem;
                 color:white;
                 background: map-get($colors , primary);
                 background: rgb(3,55,82);
-                background: linear-gradient(270deg, rgba(3,55,82,1) 0%, rgba(4,72,106,0.9387955011106005) 35%); 
+                background: linear-gradient(270deg, rgba(3,55,82,1) 0%, rgba(4,72,106,0.9387955011106005) 35%);
                 display:grid;
                 position: fixed;
                 margin-top: 0rem;
-                
-                }  
-            
+
+                }
+
             }
-            #menu-hamburger.l-ham { 
-                grid-area: l-ham; 
+            #menu-hamburger.l-ham {
+                grid-area: l-ham;
                 display: grid;
 
                 z-index: 999;
@@ -256,20 +255,20 @@
                 right: 0;
                 position: fixed;
                 z-index: 1000;
-                
-                @include transform(rotate(0deg));
-                @include transition(.5s ease-in-out);
+
+
+
                 cursor: pointer;
                 position: fixed;
-            
-            
+
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: none;
                 }
-        
+
                 & span {
-                    
-                    
+
+
                     height: .12rem;
                     margin-bottom:-0.9rem;
                     width: 100%;
@@ -278,55 +277,54 @@
                     opacity: 1;
                     left: 0;
                     z-index: 999;
-                    @include transform(rotate(0deg));
-                @include transition(.25s ease-in-out);
-        
-                
+
+
+
+
                 }
-            
+
                 &.is-open {
-                    
+
                 z-index: 9999;
                 display: grid;
                 float: right;
-                    
-        
+
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         display: none;
                     }
-            
+
                     span {
                         background: map-get($colors,main);
-                        
+
                         &:nth-child(1) {
-                            @include transform(rotate(60deg));
+
                             margin-top: 0.68rem;
-                            
+
                         }
-                        
+
                         &:nth-child(2) {
-                            @include transform(rotate(-60deg));
-                            
+
                         }
-                        
+
                         &:nth-child(3) {
-                            
+
                             top: 0rem;
                             width: 0%;
-                            
+
                         }
-                        
-                    
-                            
+
+
+
                     }
-            
+
                     &:before {
                         background: transparent;
                     }
                 }
-        
+
             }
-            
+
 }
 }
     /********************FOOTER********************/
@@ -341,14 +339,14 @@
         grid-area: l-footer;
 
         footer{
-            
+
             background: map-get($colors ,primary );
             width: 100%;
             margin-left: auto;
             margin-right: auto;
             padding-left: 2rem;
             margin-top: 8rem;
-            
+
             .bordure {
                 border-bottom:1px solid white;
                 margin-top: 7rem;
@@ -370,7 +368,7 @@
                     display: block;
                 }
                 }
-            
+
             .icon{
                 width: 1rem;
                 margin-right: 1rem;
@@ -385,7 +383,7 @@
                 width: 100%;
 
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    
+
                 }
 
                 a{
@@ -417,7 +415,7 @@
                     margin-top: 2rem;
                     margin-left: 25rem;
                     display: inline-block;
-                    
+
                 }
             }
             .logo-footer{
@@ -425,7 +423,7 @@
                 padding-top: -2rem;
                 @media screen and (min-width: map-get($break-point, md)) {
                     width: 11rem;
-                    
+
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
                     padding-top: 1.5rem;
@@ -439,16 +437,16 @@
 
             .section__footer--left{
                 margin-left: 1rem;
-                
+
 
                 h1{
                     margin: 2rem auto 0rem -1rem;
                     font-size: 24px;
-                    
+
                 }
-                
+
                 @media screen and (min-width: map-get($break-point, md)) {
-                    
+
                     margin-top: -7rem;
                     font-size: 20px;
                     h1{
@@ -461,9 +459,9 @@
                         padding-bottom: 2rem;
                         margin-left:4rem;
                     }
-                
+
                 }
-                
+
 
                 a{
                     color: map-get($colors ,main );
@@ -471,29 +469,29 @@
                     text-decoration-line: none;
                     margin-left: -1rem;
                     font-size: 18px;
-                    
-                    
+
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         font-size: 18px;
                         margin-left: -1rem;
                     }
                     @media screen and (min-width: map-get($break-point, lg)) {
-                    
+
                     margin-left: 4rem;
                     font-size:20px;
-                    
+
                     }
-                    
+
                     &:hover{
                         color: map-get($colors , primaryGreen );
                     }
-                
+
                 }
             }
 
             .section__footer--middle{
                 margin-left: -2rem;
-                
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     margin-left: -2rem;
                     margin-top: 0rem;
@@ -501,7 +499,7 @@
 
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                
+
                     width: auto;
                     text-align: center;
                     display: flex;
@@ -509,7 +507,7 @@
                     h1{
                         margin: -17rem auto 0rem auto;
                         font-size: 24px;
-                        
+
                     }
                 }
 
@@ -529,12 +527,12 @@
                     height: 3rem;
                     width: auto;
                     margin-right: 1rem;
-                    
+
                     @media screen and (min-width: map-get($break-point, md)) {
                         font-size: 16px;
                         margin-left: 3rem;
                         line-height: 2rem;
-                        
+
                         width: auto;
                     }
                     @media screen and (min-width: map-get($break-point, lg)) {
@@ -545,20 +543,20 @@
                         font-size: 18px;
                         height: 3rem;
                         width: auto;
-                        
+
                     }
                 }
             }
 
             .section__footer--right{
                 margin-left: -2rem;
-                
+
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     h1{
                         margin-left: 3rem;
                         margin-bottom: 2.5rem;
-                    
+
                     }
                     margin-left: -3rem;
                     margin-top: -1rem;
@@ -566,10 +564,10 @@
                 @media screen and (min-width: map-get($break-point, lg)) {
                     margin: -29rem auto auto 56rem;
                     width: auto;
-                    
+
                 }
-                
-                
+
+
                 p{
                     color: map-get($colors ,main );
                     text-decoration: none;
@@ -588,8 +586,8 @@
                         font-size: 16px;
                         height: 2.5rem;
                         width: auto;
-                    
-                    
+
+
                     }
                     @media screen and (min-width: map-get($break-point, lg)) {
                         margin-left: 3rem;
@@ -597,16 +595,16 @@
                         height: 2.5rem;
                         width: auto;
                         padding-top: 1rem;
-                        
+
                     }
-                    
-                    
+
+
                 }
             }
             .btn--footer{
                 float: left;
                 margin: 6rem auto 3rem 59rem;
-                
+
             }
         }
     }

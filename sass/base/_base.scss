@@ -2,7 +2,7 @@
 /* mobile first css */
 
 *, *:before, *:after {
-    @include box-sizing(border-box);
+    box-sizing:border-box;
 }
 
 
@@ -23,7 +23,7 @@
 
 html {
     font-size: 100%;
-    
+
 }
 
 
@@ -31,10 +31,10 @@ body {
     background-color: white;
     margin: 0rem;
     padding: 0rem;
-    width: auto; 
+    width: auto;
     font-size: 20px;
     font-family: map-get($fonts, primary-font );
-    
+
 }
 
 main{
@@ -46,18 +46,18 @@ h1{
     margin: 2rem auto 3rem 2rem;
     font-size: 24px;
     color: white;
-    
+
     @media screen and (min-width: map-get($break-point, md)) {
 
     }
     @media screen and (min-width: map-get($break-point, lg)) {
-        
+
     }
 }
 
 
 a {
-    
+
 }
 
 
@@ -68,7 +68,7 @@ img {
 
 p{
     font-size:  20px;
-    
+
 }
 
 
@@ -88,8 +88,8 @@ p{
     font-weight: bold;
     justify-content: center;
     display: flex;
-    
-    
+
+
 
         &:hover{
             -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
@@ -105,7 +105,7 @@ p{
         height: 4%;
         margin:0.2rem 1rem auto 1rem;
 
-        
+
     }
 
 
