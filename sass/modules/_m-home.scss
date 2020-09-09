@@ -1,5 +1,36 @@
 
     /********************section detail********************/
+    .section__details{
+
+        .l-section--detail { grid-area: l-section-detail; }
+        
+    }
+    /********************section logo********************/
+    .section__logos{
+
+        .l-section--logos { grid-area: l-section-logos; }
+    }
+    /********************section creations********************/
+    .section__creations{
+
+        .l-section--creations { grid-area: l-section-creations; }   
+    }
+    /********************section realisations********************/
+    .section__realisations{
+
+        .l-section--realisations { grid-area: l-section-realisations; }
+
+    }
+    /********************section ajouts********************/
+    .section__ajouts{
+        .l-section--ajouts { grid-area: l-section-ajouts; }
+
+    }
+    
+
+
+
+    /********************section detail********************/
 
     .section__detail{
         min-height: auto;
@@ -612,16 +643,5 @@
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 

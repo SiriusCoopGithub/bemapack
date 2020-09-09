@@ -1,6 +1,4 @@
 /********************wrapper********************/
-.wrapper {
-    
 
     /********************section contact********************/
     .section__contact{
@@ -107,155 +105,154 @@
                 z-index: 999;
             }
         }
-    .description{
-        display: block;
-            
-        position: absolute;
-        margin: 30rem auto auto auto;
-        color: white;
-        padding-bottom: 2rem;
-        z-index: 1000;
-        .title{
-
-        }
-        .detail{
+        .description{
             display: block;
-            justify-content: center;
-            text-align: center;
-            position: relative;
-            margin: auto auto auto auto;
+                
+            position: absolute;
+            margin: 30rem auto auto auto;
             color: white;
             padding-bottom: 2rem;
-
-
-            @media screen and (min-width: map-get($break-point, md)) {
-                display: flex;
-                justify-content: left;
-                margin: -9rem auto auto 8rem;
-                color: white;
-            }
-
-            @media screen and (min-width: map-get($break-point, lg)) {
-                margin: -8rem auto auto 10rem;
-            }
-        }
-    }
-
-
-
-
-
-            /********************contact presentation********************/
-            .wrap__page--contact{
-
-                .title__page--contact{
-                
-                }
-
-                p.message{
-                
-                line-height: 1.7rem;
-                color:black;
-                margin-bottom: 5rem;
-                text-align: justify;
-                margin:1rem;
-                
-                
-                input.checkbox {
-                    text-align: justify;
-                    margin-right: 1rem;
-                }
-            
-                }
-            
-            
-                .formulaire {
-                width: 80%;
-                height: auto;
-                border-radius: 5px;
-                margin-left: 1rem;
-                margin-right: 0;
-                padding: 0.5rem 0rem 0rem 0rem;
-                margin: 1rem auto 1rem auto; 
-                position: relative;
-                
-                
-                input[type=text], input[type=tel], input[type=email] {
-                display: inline-block;
-                border: o;
-                border-radius: 4px;
-                background-color: white;
-                font-size: 1rem;
-                color: black;
-                width: 100%;
-                height: 3rem;
-                box-sizing: border-box;
-                margin-bottom: 1rem;
-                text-align: left; 
-                padding:5px;
-                }
-                
-                input[placeholder=""] {
-                background-color: antiquewhite; 
-                
-                }
-                
-                textarea {
-                box-sizing: border-box;
-                width: 100%;
-                height: 200px;
-                margin-top: 8px;
-                margin-bottom: 40px;
-                padding: 12px;
-                border-radius: 8px;
-                resize: vertical, horizontal; 
-                }
-                #message-confirmation {
-                font-size: 1rem;
-                color: map-get($colors , link); 
-                margin-top: 2rem;
-                text-align: center;
-                }
+            z-index: 1000;
+            .title{
 
             }
-            
-            .btn.btn__contact{
-                
+            .detail{
                 display: block;
-                margin-top: 1rem;
+                justify-content: center;
                 text-align: center;
-                max-width: auto;
-                
+                position: relative;
+                margin: auto auto auto auto;
+                color: white;
+                padding-bottom: 2rem;
 
-                
-                
-                
+
                 @media screen and (min-width: map-get($break-point, md)) {
+                    display: flex;
+                    justify-content: left;
+                    margin: -9rem auto auto 8rem;
+                    color: white;
+                }
 
-                    margin:0;
-                    margin-right: 5rem;
-                    padding:auto 2rem auto 1rem;
-                    width: auto;
-                }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    padding:auto 2rem auto 1rem;
-                    width: 15rem;
-                    margin:  auto;
-                    float: left;
+                    margin: -8rem auto auto 10rem;
                 }
-                
             }
 
+
+
+
+
+                /********************contact presentation********************/
+                .wrap__page--contact{
+
+                    .title__page--contact{
+                    
+                    }
+
+                    p.message{
+                    
+                    line-height: 1.7rem;
+                    color:black;
+                    margin-bottom: 5rem;
+                    text-align: justify;
+                    margin:1rem;
+                    
+                    
+                    input.checkbox {
+                        text-align: justify;
+                        margin-right: 1rem;
+                    }
+                
+                    }
+                
+                
+                    .formulaire {
+                    width: 80%;
+                    height: auto;
+                    border-radius: 5px;
+                    margin-left: 1rem;
+                    margin-right: 0;
+                    padding: 0.5rem 0rem 0rem 0rem;
+                    margin: 1rem auto 1rem auto; 
+                    position: relative;
+                    
+                    
+                    input[type=text], input[type=tel], input[type=email] {
+                    display: inline-block;
+                    border: o;
+                    border-radius: 4px;
+                    background-color: white;
+                    font-size: 1rem;
+                    color: black;
+                    width: 100%;
+                    height: 3rem;
+                    box-sizing: border-box;
+                    margin-bottom: 1rem;
+                    text-align: left; 
+                    padding:5px;
+                    }
+                    
+                    input[placeholder=""] {
+                    background-color: antiquewhite; 
+                    
+                    }
+                    
+                    textarea {
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 200px;
+                    margin-top: 8px;
+                    margin-bottom: 40px;
+                    padding: 12px;
+                    border-radius: 8px;
+                    resize: vertical, horizontal; 
+                    }
+                    #message-confirmation {
+                    font-size: 1rem;
+                    color: map-get($colors , link); 
+                    margin-top: 2rem;
+                    text-align: center;
+                    }
+
+                }
+                
+                .btn.btn__contact{
+                    
+                    display: block;
+                    margin-top: 1rem;
+                    text-align: center;
+                    max-width: auto;
+                    
+
+                    
+                    
+                    
+                    @media screen and (min-width: map-get($break-point, md)) {
+
+                        margin:0;
+                        margin-right: 5rem;
+                        padding:auto 2rem auto 1rem;
+                        width: auto;
+                    }
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        padding:auto 2rem auto 1rem;
+                        width: 15rem;
+                        margin:  auto;
+                        float: left;
+                    }
+                    
+                }
+
+            }
+
+
+
+
+
+
+
+
+
         }
-
-
-
-
-
-
-
-
-
-    }
 
 }
