@@ -2,7 +2,7 @@
 /* mobile first css */
 
 *, *:before, *:after {
-    @include box-sizing(border-box);
+    box-sizing:border-box;
 }
 
 

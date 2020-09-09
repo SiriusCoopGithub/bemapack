@@ -6,10 +6,7 @@
     grid-template-rows: 1fr repeat(3, 1fr);
     gap: 0px 0px;
     grid-template-areas:
-    "l-wrapper l-wrapper l-wrapper"
-    "l-banner l-banner l-banner "
-    ". . . ."
-    "l-footer l-footer l-footer";
+    "l-wrapper l-wrapper l-wrapper";
 
     /********************HEADER********************/
     .l-header {
@@ -22,7 +19,6 @@
         grid-area: l-header;
 
         width: 100%;
-        
         background-color: map-get($colors,primary);
         z-index: 999;
         position: fixed;
@@ -38,7 +34,7 @@
             .l-logo__mobile{
                 display:grid;
                 width: 2.5rem;
-                margin:1rem ;
+                margin:0.7rem 1rem 1rem 1rem ;
                 z-index: 1999;
                 position:fixed;
                 
@@ -54,7 +50,7 @@
             .l-logo__lg{
                 display:grid;
                 width: 11.5rem;
-                margin:1rem auto auto 4rem ;
+                margin:0.7rem auto auto 4rem ;
                 z-index: 1999;
                 
                 
@@ -81,9 +77,7 @@
                 z-index: 999;
                 display: none;
                 
-
-                
-                @include transition(.2s ease-in-out);
+                transition:.2s ease-in-out;
             
                 background: map-get($colors,primary);
             
@@ -243,8 +237,8 @@
                 position: fixed;
                 z-index: 1000;
                 
-                @include transform(rotate(0deg));
-                @include transition(.5s ease-in-out);
+                transform:rotate(0deg);
+                transition:.5s ease-in-out;
                 cursor: pointer;
                 position: fixed;
             
@@ -254,8 +248,7 @@
                 }
         
                 & span {
-                    
-                    
+
                     height: .12rem;
                     margin-bottom:-0.9rem;
                     width: 100%;
@@ -264,8 +257,8 @@
                     opacity: 1;
                     left: 0;
                     z-index: 999;
-                    @include transform(rotate(0deg));
-                @include transition(.25s ease-in-out);
+                    transform:rotate(0deg);
+                    transition:.25s ease-in-out;
         
                 
                 }
@@ -285,13 +278,13 @@
                         background: map-get($colors,main);
                         
                         &:nth-child(1) {
-                            @include transform(rotate(60deg));
+                            transform:rotate(60deg);
                             margin-top: 0.68rem;
                             
                         }
                         
                         &:nth-child(2) {
-                            @include transform(rotate(-60deg));
+                            transform:rotate(-60deg);
                             
                         }
                         
@@ -314,20 +307,65 @@
             }
             
     }
-}  
-/********************FOOTER********************/
-    .l-footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        grid-template-rows:  1fr;
-        gap: 0px ;
-        grid-template-areas:
-        "l-footer l-footer l-footer l-footer"
-        "l-left l-middle l-right";
-        grid-area: l-footer;
 
-        footer{
-            
+    /********************section banner********************/
+    .l-banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 0;
+        grid-area: l-banner;
+
+                .l-banner-img {
+                    display: grid;
+
+                    .l-img { grid-area: l-img; }
+                
+                    .l-detail { grid-area: l-detail; }
+                    
+                    .l-btn { grid-area: l-btn; }
+                    
+                    .l-logo\/det { grid-area: l-logo\/det; }
+                }
+
+                .header__mobile{
+                    margin-top: 3rem;
+                    z-index: 0;
+                    height: auto;
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        display:none;
+                    }
+                }
+                .point__banner{
+                    display: none;
+
+            @media screen and (min-width: map-get($break-point, md)) {
+                display:block;
+                position: absolute;
+                width: 20%;
+                margin: -15rem auto auto 14rem;
+            }
+
+            @media screen and (min-width: map-get($break-point, lg)) {
+                width: 15%;
+                margin: -15rem auto auto 14rem;
+            }
+    }
+    }     
+
+    /********************FOOTER********************/
+        .l-footer{
+            display: grid;
+            grid-template-columns: 1fr  ;
+            grid-template-rows:  1fr;
+            gap: 0px ;
+            grid-template-areas:
+            "l-footer l-footer l-footer "
+            "l-left l-middle l-right";
+            grid-area: l-footer;
+
+
             background: map-get($colors ,primary );
             width: 100%;
             margin-left: auto;
@@ -594,9 +632,8 @@
                 margin: 6rem auto 3rem 59rem;
                 
             }
-        }
     }
 
-
+}
 
 
