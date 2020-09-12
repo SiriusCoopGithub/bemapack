@@ -1,344 +1,341 @@
-
-/********************wrapper********************/
-.l-wrapper {
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
-    grid-template-rows: auto;
-    gap: 0px 0px;
+/********************HEADER********************/
+.l-header {
+    display: inline-grid;
+    grid-template-columns: 0.5fr 1fr 5fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
     grid-template-areas:
-    "l-header l-header l-header"
-    "l-banner-img l-banner-img ."
-    ". l-sections ."
-    "l-footer l-footer l-footer";
+    
+    "l-menu l-menu l-menu";
+    grid-area: l-header;
 
-}
-    /********************HEADER********************/
-    .l-header {
-        display: inline-grid;
-        grid-template-columns: 1fr 1fr 5fr;
-        grid-template-rows: 1fr;
-        gap: 0px;
-        grid-template-areas:
-        "l-menu l-menu l-menu";
-        grid-area: l-header;
-
-        width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: map-get($colors,primary);
+    z-index: 999;
+    position: fixed;
+    
         
-        background-color: map-get($colors,primary);
-        z-index: 999;
-        position: fixed;
+        @media screen and (min-width: map-get($break-point, md)) {
+            grid-template-areas:
+            "l-logo l-menu l-menu ";
+            background-color:transparent;
+            height: 4rem;
+        }
         
+        .l-logo__mobile{
+            display:grid;
+            width: 2.5rem;
+            margin:0.7rem;
+            z-index: 1999;
+            position:fixed;
             
             @media screen and (min-width: map-get($break-point, md)) {
-                grid-template-areas:
-                "l-logo l-logo-lg l-menu ";
-                background-color:transparent;
-                height: 4rem;
-            }
-            
-            .l-logo__mobile{
-                display:grid;
+                display: inline-block;
+                margin: 0.5rem;
                 width: 2.5rem;
-                margin:0.7rem;
-                z-index: 1999;
-                position:fixed;
-                
-                @media screen and (min-width: map-get($break-point, md)) {
-                    display: inline-block;
-                    margin: 0.5rem;
-                    width: 2.5rem;
-                    position: relative;
-                    
-                }
-            }
-        
-            .l-logo__lg{
-                display:grid;
-                width: 11.5rem;
-                margin:.7rem auto auto 4rem ;
-                z-index: 1999;
-                
-                
-                @media screen and (min-width: map-get($break-point, md)) {
-                    display: grid;
-                    margin: 0.3rem auto auto 4rem;
-                    width: 12.5rem;
-                    position: relative;
-                
-                }
-
+                position: relative;
                 
             }
+        }
     
-            .l-logo { 
-                grid-area: l-logo;
-                position: absolute;
-                z-index: 1999;
+        .l-logo__lg{
+            display:grid;
+            width: 11.5rem;
+            margin:.7rem auto auto 4rem ;
+            z-index: 1999;
+            
+            
+            @media screen and (min-width: map-get($break-point, md)) {
+                display: grid;
+                margin: 0.3rem auto auto 4rem;
+                width: 12.5rem;
+                position: relative;
+            
+            }
 
+            
+        }
+
+        .l-logo { 
+            grid-area: l-logo;
+            position: absolute;
+            z-index: 1999;
+
+        }
+    
+        .l-nav__main.l-menu {
+            grid-area: l-menu;
+            z-index: 999;
+            display: none;
+            
+            
+
+            
+            transition:.2s ease-in-out;
+        
+            background: map-get($colors,primary);
+        
+            &.is-visible {
+                right: 0;
+                display: inline-block;
+                right: auto;
+        
+            }
+            @media screen and (min-width: map-get($break-point, md)) {
+                background: none;
+                width: auto;
+                height: 4rem;
+                display: grid;
+                
+                right: 0;
+                background: transparent;
+        
             }
         
-            .l-nav__main.l-menu {
-                grid-area: l-menu;
-                z-index: 999;
-                display: none;
+            nav{
                 
-                
+                margin-left: auto;
+                margin-right: 1rem;
 
-                
-                transition:.2s ease-in-out;
-            
-                background: map-get($colors,primary);
-            
-                &.is-visible {
-                    right: 0;
-                    display: inline-block;
-                    right: auto;
-            
-                }
                 @media screen and (min-width: map-get($break-point, md)) {
-                    background: none;
-                    width: auto;
-                    height: 4rem;
-                    display: grid;
-                    
-                    right: 0;
-                    background: transparent;
-            
-                }
-            
-                nav{
-                    
+                    text-align: left;
                     margin-left: auto;
                     margin-right: auto;
+                }
+                
+                @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    margin-left: auto;
+                    margin-right: 4rem;
+                }
+        
+            ul {
+                
+                padding-top: 1rem;
+                width: auto;
+                height:100vh;
+                
                 
             
-                ul {
-                    
-                    padding-top: 1rem;
+        
+                @media screen and (min-width: map-get($break-point, md)) {
+                    z-index: 999;
                     width: auto;
-                    height:100vh;
-                    margin-left: 0;
-                    text-align: center;
+                    height: 4rem;
+                    text-align: left;
+                    position: inherit;
+                    
+                    display: inline-block;
+                    font-size: 18px;
+                }
+                @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    text-align: right;
+                    
+                }
                 
+                
+            }
+            li {
+                position: relative;
+                display: block;
+                margin-top: 3rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+        
             
-                    @media screen and (min-width: map-get($break-point, md)) {
-                        z-index: 999;
-                        width: auto;
-                        height: 4rem;
-                        text-align: right;
-                        position: inherit;
-                        margin: auto 0 auto -4rem;
-                        display: inline-block;
-                        font-size: 18px;
+                @media screen and (min-width: map-get($break-point, md)) {
+                    display: inline-block;
+                    margin:auto 0rem auto 0rem;
+                    
+                    &:hover {
+                        transform: scale(.9); 
+                    }
+                }
+        
 
-                    }
-                    
-                    
-                }
-                li {
-                    position: relative;
-                    display: block;
-                    margin-top: 3rem;
-            
                 
-                    @media screen and (min-width: map-get($break-point, md)) {
-                        display: inline-block;
-                        margin:auto 0rem auto 0rem;
-                        
-                        &:hover {
-                            transform: scale(.9); 
-                        }
-                    }
-            
-    
+            }
+            a {
                     
-                }
-                a {
-                        
-                    text-decoration: none;
-                    padding: 1rem 1.5rem;
-                    text-align: center;
-                    color: map-get($colors,main);
-                    font-size: 25px;
-                    
-            
-            
-                    @media screen and (min-width: map-get($break-point, md)) {
-                        color: map-get($colors,main);
-                        padding: 0.2rem 0.5rem;
-                        margin:auto 1rem auto 1rem;
-            
-            
-                    &:hover, &.is-active {
-                        right: 0;
-                    }
+                text-decoration: none;
                 
-            
-                    &.blue-contact{
-                        color: map-get($colors,primaryGreen);
-                    }
-                    }
-            
-            
-                }
-            
+                text-align: center;
+                color: map-get($colors,main);
+                font-size: 25px;
                 
         
-            @media screen and (min-width: map-get($break-point, md)) {
-                a.hover{
-            
-                    &:hover:before {
-                        display: grid;
-                        content: "";
-                        width: 15px;
-                        height: 15px;
-                        position: absolute;
-                        bottom: 0px;
-                        left: 0px;
-                        border-bottom: 3px solid map-get($colors , primaryGreen );
-                        border-left: 3px solid map-get($colors , primaryGreen );
-                    }
-            
-                    &:hover:after {
-                        display: block;
-                        content: "";
-                        width: 15px;
-                        height: 15px;
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                        border-top: 3px solid map-get($colors , primaryGreen );;
-                        border-right: 3px solid map-get($colors , primaryGreen );;
-                    }
-                }
-            
-            }
-                }
-            }
-            #menu-up{
-                display: none;
-                
+        
                 @media screen and (min-width: map-get($break-point, md)) {
+                    color: map-get($colors,main);
+                    padding: 0.2rem 0.5rem;
+                    margin:auto auto auto 1rem;
+        
+        
+                &:hover, &.is-active {
+                    right: 0;
+                }
+            
+        
+                &.blue-contact{
+                    color: map-get($colors,primaryGreen);
+                }
+                }
+        
+        
+            }
+        
+            
+    
+        @media screen and (min-width: map-get($break-point, md)) {
+            a.hover{
+        
+                &:hover:before {
+                    display: grid;
+                    content: "";
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    border-bottom: 3px solid map-get($colors , primaryGreen );
+                    border-left: 3px solid map-get($colors , primaryGreen );
+                }
+        
+                &:hover:after {
+                    display: block;
+                    content: "";
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-top: 3px solid map-get($colors , primaryGreen );;
+                    border-right: 3px solid map-get($colors , primaryGreen );;
+                }
+            }
+        
+        }
+            }
+        }
+        #menu-up{
+            display: none;
+            
+            @media screen and (min-width: map-get($break-point, md)) {
+            width: 100%;
+            height: 4rem;
+            color:white;
+            background: map-get($colors , primary);
+            background: rgb(3,55,82);
+            background: linear-gradient(270deg, rgba(3,55,82,1) 0%, rgba(4,72,106,0.9387955011106005) 35%); 
+            display:grid;
+            position: fixed;
+            margin-top: 0rem;
+            
+            }  
+        
+        }
+        #menu-hamburger.l-ham { 
+            grid-area: l-ham; 
+            display: grid;
+
+            z-index: 999;
+
+            width: 2rem;
+            height: 2rem;
+            margin: 1.5rem 1rem 1rem 1rem;
+            right: 0;
+            position: fixed;
+            z-index: 1000;
+            
+            transform:rotate(0deg);
+            transition:.5s ease-in-out;
+            cursor: pointer;
+            position: fixed;
+        
+        
+            @media screen and (min-width: map-get($break-point, md)) {
+                display: none;
+            }
+    
+            & span {
+
+                height: .12rem;
+                margin-bottom:-0.9rem;
                 width: 100%;
-                height: 4rem;
-                color:white;
-                background: map-get($colors , primary);
-                background: rgb(3,55,82);
-                background: linear-gradient(270deg, rgba(3,55,82,1) 0%, rgba(4,72,106,0.9387955011106005) 35%); 
-                display:grid;
-                position: fixed;
-                margin-top: 0rem;
-                
-                }  
+                background: map-get($colors, main);
+                border-radius: 0.15rem;
+                opacity: 1;
+                left: 0;
+                z-index: 999;
+                transform:rotate(0deg);
+                transition:.25s ease-in-out;
+    
             
             }
-            #menu-hamburger.l-ham { 
-                grid-area: l-ham; 
-                display: grid;
-
-                z-index: 999;
-
-                width: 2rem;
-                height: 2rem;
-                margin: 1.5rem 1rem 1rem 1rem;
-                right: 0;
-                position: fixed;
-                z-index: 1000;
+        
+            &.is-open {
                 
-                transform:rotate(0deg);
-                transition:.5s ease-in-out;
-                cursor: pointer;
-                position: fixed;
-            
-            
+            z-index: 9999;
+            display: grid;
+            float: right;
+                
+    
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: none;
                 }
         
-                & span {
-
-                    height: .12rem;
-                    margin-bottom:-0.9rem;
-                    width: 100%;
-                    background: map-get($colors, main);
-                    border-radius: 0.15rem;
-                    opacity: 1;
-                    left: 0;
-                    z-index: 999;
-                    transform:rotate(0deg);
-                    transition:.25s ease-in-out;
-        
+                span {
+                    background: map-get($colors,main);
+                    
+                    &:nth-child(1) {
+                        transform:rotate(60deg);
+                        margin-top: 0.68rem;
+                        
+                    }
+                    
+                    &:nth-child(2) {
+                        transform:rotate(-60deg);
+                        
+                    }
+                    
+                    &:nth-child(3) {
+                        
+                        top: 0rem;
+                        width: 0%;
+                        
+                    }
+                    
                 
-                }
-            
-                &.is-open {
-                    
-                z-index: 9999;
-                display: grid;
-                float: right;
-                    
-        
-                    @media screen and (min-width: map-get($break-point, md)) {
-                        display: none;
-                    }
-            
-                    span {
-                        background: map-get($colors,main);
                         
-                        &:nth-child(1) {
-                            transform:rotate(60deg);
-                            margin-top: 0.68rem;
-                            
-                        }
-                        
-                        &:nth-child(2) {
-                            transform:rotate(-60deg);
-                            
-                        }
-                        
-                        &:nth-child(3) {
-                            
-                            top: 0rem;
-                            width: 0%;
-                            
-                        }
-                        
-                    
-                            
-                    }
-            
-                    &:before {
-                        background: transparent;
-                    }
                 }
         
+                &:before {
+                    background: transparent;
+                }
             }
-            
-    }
-
-    /********************BANNER********************/
-    .l-banner{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        width: 100%;
-        gap: 0px;
-        grid-template-areas:
-        "l-banner-img  l-banner-img ."
-        ". . l-img ";
-        grid-area: l-banner;
-        display: grid;
-                grid-column-start:1 ;
-                grid-column-end:2;
     
-            .l-banner-img{
-                
-            }
+        }
+        
+}
+/********************wrapper********************/
+.l-wrapper {
+    display: grid;
+    grid-template-columns:  0.38fr 1fr 0.3fr ;
+    grid-template-rows:  0.5fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "l-section__banner l-section__banner  l-section__banner "
+    "l-img ";
+
+    @media screen and (min-width: map-get($break-point, md)) {
+        grid-template-areas:
+        "l-section__banner l-section__banner . "
+        "l-img l-img l-img";
     }
-
-
-
-
+}
 /********************FOOTER********************/
 footer{
     .l-footer{

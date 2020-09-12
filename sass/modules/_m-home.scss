@@ -1,4 +1,27 @@
+    /********************BANNER********************/
+    .l-section__banner{
+        grid-column: 1/4;
 
+        @media screen and (min-width: map-get($break-point, md)) {
+            grid-column: 1/3;
+        }
+        
+        .banner   {
+        
+            .l-banner-img{
+
+                grid-template-areas:
+                "..  . ";
+                z-index: 1;
+                position: relative;
+            }    
+            .l-img{
+                grid-row: 1;
+                z-index: 999;
+                position: absolute;
+            } 
+        }  
+    } 
     /********************section detail********************/
     .section__details{
 
