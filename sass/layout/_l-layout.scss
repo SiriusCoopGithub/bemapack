@@ -6,12 +6,11 @@
     gap: 0px;
     grid-template-areas:
     
-    "l-menu l-menu l-menu";
+    "l-menu l-menu l-menu ";
     grid-area: l-header;
 
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    
     background-color: map-get($colors,primary);
     z-index: 999;
     position: fixed;
@@ -69,8 +68,7 @@
             grid-area: l-menu;
             z-index: 999;
             display: none;
-            
-            
+            width: 100%;
 
             
             transition:.2s ease-in-out;
@@ -78,9 +76,9 @@
             background: map-get($colors,primary);
         
             &.is-visible {
-                right: 0;
+                
                 display: inline-block;
-                right: auto;
+                
         
             }
             @media screen and (min-width: map-get($break-point, md)) {
@@ -97,7 +95,9 @@
             nav{
                 
                 margin-left: auto;
-                margin-right: 1rem;
+                margin-right: auto;
+                
+                
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     text-align: left;
@@ -113,11 +113,13 @@
         
             ul {
                 
-                padding-top: 1rem;
-                width: auto;
+                
                 height:100vh;
                 
-                
+                margin-top: 2rem;
+                padding-top: 1rem;
+                width: 100%;
+                text-align: center;
             
         
                 @media screen and (min-width: map-get($break-point, md)) {
@@ -328,11 +330,11 @@
     gap: 0px 0px;
     grid-template-areas:
     "l-section__banner l-section__banner  l-section__banner "
-    "l-img ";
+    " l-img  l-img .";
 
     @media screen and (min-width: map-get($break-point, md)) {
         grid-template-areas:
-        "l-section__banner l-section__banner . "
+        "l-section__banner l-section__banner  . "
         "l-img l-img l-img";
     }
 }
