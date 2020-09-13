@@ -65,11 +65,11 @@
                             "l-img l-img l-img";
                             z-index: 997;
                             width: auto;
-                            width: 10rem;
+                            width: 8rem;
                             grid-column: 1;
                             grid-row:1 ;
                             justify-content: space-between;
-                            margin:6rem 0rem auto auto;
+                            margin:5rem 0rem auto auto;
                             
                             @media screen and (min-width: map-get($break-point, xs)) {
                                 width: 20rem;
@@ -140,7 +140,7 @@
                     display: block;
                     margin: -13.5rem auto auto 1rem;
 
-                    width: 12rem;
+                    width: 11rem;
                     position: relative;
                     z-index: 996;
 
@@ -179,7 +179,7 @@
                     font-style: italic;
                     display: block;
                     z-index: 996;
-                    margin: -10rem auto auto 1rem;
+                    margin: -11rem auto auto 1rem;
                     font-size:16px;
                     width: 40%;
 
@@ -216,21 +216,41 @@
                 }
 
                 .l-point{
-                    width: 5rem;
-                    
+                    width: 8rem;
+                    margin:-10rem auto auto 11rem;
+                    z-index: 996;
                 }
 
                 .l-btn{
 
-                    .crl--blue{
+                    .btn__banner {
+                        margin:-4rem auto auto 3rem;
+                        z-index: 997;
+                        position: relative;
+                        
+                    }
+                    p {
+                        display:none;
 
-                        .btn__banner {
+                        .crl--blue{
 
-                        }
-                        .btn__banner {
-
+                            @media screen and (min-width: map-get($break-point, md)) {
+                                display: flex;
+                                justify-content: left;
+                                margin: -9rem auto auto 8rem;
+                                color: white;
+                                z-index: 997;
+                                position: relative;
+                            
+                                    ::before  {
+                                            content: ">";
+                                            color:map-get($colors , primaryGreen );
+                                        }
+                                    
+                            }
                         }
                     }
+                    
                 }
 
             } 
