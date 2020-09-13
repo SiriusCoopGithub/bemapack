@@ -5,6 +5,9 @@
                         
             background-color: map-get($colors,second);
         }
+        @media screen and (min-width: 1420px) and (max-width:1900px) {
+            background-color:map-get($colors,second); ;
+        }
         .l-banner   {
                 display: inline-grid;
                 
@@ -46,7 +49,7 @@
                     }
                     @media screen and (min-width: map-get($break-point, xxlg)) {
                         
-                        max-width: 1210px;
+                        max-width: 1160px;
                     }
                     @media screen and (min-width: map-get($break-point, xtlg)) {
                         
