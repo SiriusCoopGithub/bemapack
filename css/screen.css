@@ -626,10 +626,10 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 1280px) {
   /* line 20, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-banner-img {
-    max-width: 1050px;
+    max-width: 1060px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1360px) {
   /* line 20, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-banner-img {
     max-width: 1210px;
@@ -680,7 +680,7 @@ footer .l-footer .section__footer--right .btn--footer {
     grid-row: 1;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1360px) {
   /* line 55, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-img {
     margin: 3rem 0rem auto 44rem;
@@ -714,7 +714,7 @@ footer .l-footer .section__footer--right .btn--footer {
     width: 23rem;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1360px) {
   /* line 104, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-logo-lg {
     margin: -46rem auto auto 8rem;
@@ -758,7 +758,7 @@ footer .l-footer .section__footer--right .btn--footer {
     width: 18rem;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1360px) {
   /* line 132, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-txt--liner {
     margin: -37rem auto auto 8.3rem;
@@ -803,7 +803,7 @@ footer .l-footer .section__footer--right .btn--footer {
     width: 20%;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1360px) {
   /* line 168, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-txt {
     font-size: 25px;
