@@ -726,8 +726,8 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 1920px) {
   /* line 61, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .l-img {
-    width: 60rem;
-    margin: 5rem 0rem auto 56rem;
+    width: 63rem;
+    margin: 7rem 0rem auto 54rem;
   }
 }
 /* line 109, ../sass/modules/_m-home.scss */
@@ -984,7 +984,7 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 1920px) {
   /* line 258, ../sass/modules/_m-home.scss */
   .l-section__banner .l-banner .crl--blue {
-    margin: -22rem auto auto 5rem;
+    margin: -20rem auto auto 5rem;
     padding-right: 65rem;
     font-size: 24px;
   }
