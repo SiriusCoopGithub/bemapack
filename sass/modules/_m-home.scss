@@ -1,13 +1,11 @@
     /********************BANNER********************/
     .l-section__banner{
         grid-column: 1/4;
-        
-        @media screen and (min-width: map-get($break-point, xxlg)) {
+        @media screen and (min-width: map-get($break-point, other)) {
+                        
             background-color: map-get($colors,second);
-            
-            
         }
-            .l-banner   {
+        .l-banner   {
                 display: inline-grid;
                 
 
@@ -33,7 +31,6 @@
                         max-width: 600px;
                         
                     }
-
                     @media screen and (min-width: map-get($break-point, lg)) {
                         margin-top: inherit;
                         max-width: 810px;
@@ -43,14 +40,20 @@
                         
                         max-width: 1060px;
                     }
-
                     @media screen and (min-width: map-get($break-point, xlg)) {
                         
                         max-width: 1190px;
                     }
+                    @media screen and (min-width: map-get($break-point, xxlg)) {
+                        
+                        max-width: 1210px;
+                    }
+                    @media screen and (min-width: map-get($break-point, xtlg)) {
+                        
+                        max-width: 1635px;
+                    }
                 
                 } 
-
         
                 .l-img{
                             display: grid;
@@ -72,19 +75,16 @@
                                 
                                 
                             }
-
                             @media screen and (min-width: map-get($break-point, md)) {
                                 width: 23rem;
                                 margin:3rem 0rem auto 24rem;
                                 padding-top: 2rem; 
                             }
-
                             @media screen and (min-width: map-get($break-point, lg)) {
                                 width: 32rem;
                                 margin:3rem 0rem auto 29rem;
                                 padding-top: 2rem; 
                             }
-
                             @media screen and (min-width: map-get($break-point, mlg)) {
                                 width: 43rem;
                                 margin:3rem 0rem auto 34.5rem;
@@ -96,11 +96,13 @@
                                 margin:3rem 0rem auto 44rem;
                                 
                             }
-                            
-                        
+                            @media screen and (min-width: map-get($break-point, xtlg)) {
+                                width: 60rem;
+                                margin:5rem 0rem auto 56rem;
+                                
+                            }
                 } 
             
-
                 .l-logo-lg{
                     display: none;
                     
@@ -111,12 +113,10 @@
                         z-index: 997;
                         position: relative;
                     }
-
                     @media screen and (min-width: map-get($break-point, lg)) {
                         margin: -29rem auto auto 5rem;
                         width: 23rem;
                     }
-
                     @media screen and (min-width: map-get($break-point, mlg)) {
                         margin: -39rem auto auto 8rem;
                         width: 23rem;
@@ -127,6 +127,10 @@
                         width: 30rem;
                         
                     }
+                    @media screen and (min-width: map-get($break-point, xtlg)) {
+                        margin: -60rem auto auto 14rem;
+                        width: 30rem;
+                    }   
                 } 
 
                 .l-txt--liner {
@@ -142,24 +146,25 @@
                         width: 12rem;
                         font-size: 20px;
                     }
-                    
                     @media screen and (min-width: map-get($break-point, md)) {
                         margin: -15rem auto auto 3.3rem;
                         width: 20rem;
                         font-size: 20px;
                     }
-
                     @media screen and (min-width: map-get($break-point, lg)) {
                         margin: -23rem auto auto 5.3rem;
                         
                     }
-
                     @media screen and (min-width: map-get($break-point, mlg)) {
                         margin: -31rem auto auto 8.3rem;
                         width: 18rem;
                     }
                     @media screen and (min-width: map-get($break-point, xlg)) {
                         margin: -37rem auto auto 8.3rem;
+                        width: 26rem;
+                    }
+                    @media screen and (min-width: map-get($break-point, xtlg)) {
+                        margin:-51rem auto auto 14.3rem;
                         width: 26rem;
                     }
                 }
@@ -180,28 +185,48 @@
                         margin: -18rem auto auto 1rem;
 
                     }
-
                     @media screen and (min-width: map-get($break-point, md)) {
                         font-size: 20px;
                         margin: -12rem auto auto 3.3rem;
 
                     }
-
                     @media screen and (min-width: map-get($break-point, lg)) {
                         margin: -20rem auto auto 5.3rem;
                         
                     }
-
                     @media screen and (min-width: map-get($break-point, mlg)) {
                         font-size: 22px;
                         margin: -26rem auto auto 8.3rem;
                         width: 20%;
                     }
-
                     @media screen and (min-width: map-get($break-point, xlg)) {
                         font-size: 25px;
                         margin: -32rem auto auto 8.3rem;
                         width: 18%;
+                    }
+                    @media screen and (min-width: map-get($break-point, xtlg)) {
+                        font-size: 29px;
+                        margin: -42rem auto auto 14.3rem;
+                        
+                        
+                    }
+                }
+
+                .l-point{
+                    width: 5rem;
+                    
+                }
+
+                .l-btn{
+
+                    .crl--blue{
+
+                        .btn__banner {
+
+                        }
+                        .btn__banner {
+
+                        }
                     }
                 }
 

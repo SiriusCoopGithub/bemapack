@@ -137,7 +137,10 @@
                     text-align: right;
                     
                 }
-                
+                @media screen and (min-width: map-get($break-point, xtlg)) {
+                        
+                    margin-right: 4rem;
+                }
                 
             }
             li {
