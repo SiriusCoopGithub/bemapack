@@ -20,8 +20,10 @@
             grid-template-areas:
             "l-logo l-menu l-menu ";
             background-color:transparent;
+            
             height: 4rem;
         }
+
         
         .l-logo__mobile{
             display:grid;
@@ -39,7 +41,7 @@
             }
         }
     
-        .l-logo__lg{
+        .l-logo__xs{
             display:grid;
             width: 11.5rem;
             margin:.7rem auto auto 4rem ;
@@ -47,10 +49,7 @@
             
             
             @media screen and (min-width: map-get($break-point, md)) {
-                display: grid;
-                margin: 0.3rem auto auto 4rem;
-                width: 12.5rem;
-                position: relative;
+                display: none;
             
             }
 
@@ -62,6 +61,11 @@
             position: absolute;
             z-index: 1999;
 
+            @media screen and (min-width: map-get($break-point, md)) {
+                margin-left:2rem;
+            
+            }
+
         }
     
         .l-nav__main.l-menu {
@@ -69,10 +73,9 @@
             z-index: 999;
             display: none;
             width: 100%;
-
             
             transition:.2s ease-in-out;
-        
+
             background: map-get($colors,primary);
         
             &.is-visible {
@@ -112,12 +115,9 @@
                 }
         
             ul {
-                
-                
+
                 height:100vh;
-                
-                margin-top: 2rem;
-                padding-top: 1rem;
+                padding-top: 5rem;
                 width: 100%;
                 text-align: center;
             
@@ -128,12 +128,12 @@
                     height: 4rem;
                     text-align: left;
                     position: inherit;
-                    
+                    padding-top: 1rem;
                     display: inline-block;
                     font-size: 18px;
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    
+                
                     text-align: right;
                     
                 }
@@ -329,13 +329,14 @@
     grid-template-rows:  0.5fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-    "l-section__banner l-section__banner  l-section__banner "
-    " l-img  l-img .";
+    "l-section__banner l-section__banner  .  "
+    " l-img l-img l-img";
 
     @media screen and (min-width: map-get($break-point, md)) {
         grid-template-areas:
         "l-section__banner l-section__banner  . "
-        "l-img l-img l-img";
+        ". . l-img";
+        
     }
 }
 /********************FOOTER********************/
@@ -344,6 +345,7 @@ footer{
         background: map-get($colors ,primary );
         width: 100%;
         height: auto;
+        
     
         display: flex;
         flex-direction: column;
@@ -460,14 +462,14 @@ footer{
     display: flex;
     text-align: center;
     padding-top: 3rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     margin-left: -1rem;
     width: auto;
     background-color:map-get($colors , primary ); 
 
     a{
     text-decoration: none;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem auto auto;
     text-align: center;
     color: map-get($colors,main);
     font-size: 16px;
@@ -481,7 +483,7 @@ footer{
     @media screen and (min-width: map-get($break-point, lg)) {
         font-size: 18px;
         padding-top: 3rem;
-        padding-bottom: 0.5rem;
+        
         width: auto;
         text-align: center;
         display: block;
