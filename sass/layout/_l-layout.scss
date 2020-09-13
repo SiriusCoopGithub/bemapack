@@ -94,6 +94,9 @@
                 background: transparent;
         
             }
+            @media screen and (min-width: 1420px) and (max-width:1900px) {
+                background-color:map-get($colors,primary); ;
+            }
         
             nav{
                 
@@ -113,6 +116,7 @@
                     margin-left: auto;
                     margin-right: 4rem;
                 }
+                
         
             ul {
 
@@ -138,8 +142,9 @@
                     
                 }
                 @media screen and (min-width: map-get($break-point, xxlg)) {
-                    margin-right: 4rem;
+                    
                 }
+                
                 @media screen and (min-width: map-get($break-point, xtlg)) {
                         
                     margin-right: 4rem;
