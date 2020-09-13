@@ -338,7 +338,7 @@
 .l-wrapper {
     display: grid;
     grid-template-columns:  0.38fr 1fr 0.3fr ;
-    grid-template-rows:  0.5fr 1fr 1fr;
+    grid-template-rows:  0.5fr auto;
     gap: 0px 0px;
     grid-template-areas:
     "l-section__banner l-section__banner  .  "
@@ -346,8 +346,7 @@
 
     @media screen and (min-width: map-get($break-point, md)) {
         grid-template-areas:
-        "l-section__banner l-section__banner  . "
-        ". . l-img";
+        "l-section__banner l-section__banner  . ";
         
     }
 }
@@ -395,7 +394,7 @@ footer{
                 @media screen and (min-width: map-get($break-point, lg)) {
                     max-width: 20%;
                     font-size: 18px;
-                    
+                    margin-left: 0rem;
                 }
 
                 
@@ -413,6 +412,7 @@ footer{
                 @media screen and (min-width: map-get($break-point, lg)) {
                     max-width: 40%;
                     margin-top: 2rem;
+                    margin-left: 0rem;
                 }
 
                 
@@ -474,7 +474,7 @@ footer{
     display: flex;
     text-align: center;
     padding-top: 3rem;
-    margin-bottom: 0;
+    padding-bottom: 1rem;
     margin-left: -1rem;
     width: auto;
     background-color:map-get($colors , primary ); 

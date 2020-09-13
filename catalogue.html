@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -9,108 +10,164 @@
     </head>
 
     <body>
-        <header>
-            <div class="l-header">
-                <!-- img menu logo-->
-                <div class="l-logo">
-                    <a href="index.html">
-                        <img class="l-logo__mobile" src=".\img\Logo.png" alt="logo-bemapack" title="logo-bemapack"/>
-                    </a>
-                </div>
-
-                <!-- img menu ham-->
-                <div id="menu-hamburger" class="menu-hamburger">
-                    <span></span><span></span><span></span><span></span>
-                </div>
-                <div id="menu-up"></div>
-
-                <!--nav menu-->
-                <div id="menu-principale" class="l-nav__main">
-                    <nav>
-                        <ul>
-                            <li><a class="is-active hover" href="index.html">Accueil</a></li>
-                            <li><a class="is-active hover" href="realisations.html">Réalisations</a></li>
-                            <li><a class="is-active hover" href="catalogue.html">Catalogue</a></li>
-                            <li><a class="is-active hover blue-contact" href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
-        <main>
-        </main>
-
-        <footer>
-            <div class="l-container">
-
-                <div class="bordure"></div>
-
-                <div class="section__footer--left">
-                    <h1>Plan du Site</h1>
-                    <br />
-                    <a href="./index.html">Accueil</a><br /><br />
-                    <a href="./contact.html">Contactez nous </a><br /><br />
-                    <a href="./index.html">
-                    <img class="logo-footer" src=".\img\Logo + Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/></a>
-                </div>
-
-                <div class="section__footer--middle">
-                    <h1>Contact & Infos</h1>
-                    <ul>
-                        <li>
-                            <img class="icon" src=".\img\phone-call.png" />+32 87 25 96 60
-                        </li>
-                        <li>
-                            <img class="icon" src=".\img\fax-1.png" />+32 87 25 96 61
-                        </li>
-                        <li>
-                            <img class="icon" src=".\img\mail.png" />info@bemapack.be
-                        </li>
-                        <li>
-                            <img class="icon" src=".\img\clock.png" />Du lundi au jeudi de
-                            8h00 à 16h30
-                        </li>
-                        <li class="open">et le vendredi de 8H00 à 12H00
-                        </li>
-                        <li>
-                            <img class="icon" src=".\img\map-pin.png" />Rue de Rechain,43
-                            4650 Chaineux
-                        </li>
-                        <li>
-                            <img class="icon" src=".\img\map-pin.png" />Avenue du Parc,22
-                            4650 Chaineux
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="section__footer--right">
-                    <h1>Commercial</h1>
-                    <p>
-                        <img class="icon" src=".\img\single-01.png" />Frédéric Beuvens
-                    </p>
-                    <p>
-                        <img class="icon" src=".\img\phone-call.png" />+32 495 25 91 67
-                    </p>
-                    <p>
-                        <img class="icon" src=".\img\mail.png" />f.beuvens@bemapack.be
-                    </p>
-                    <p>
-                        <img class="icon" src=".\img\mail.png" />t.materne@bemapack.be
-                    </p>
-                </div>
         
-                <a class="btn btn--footer" href="./contact.html">Contactez nous <img class="post" src=".\img\mail icone.png"/></a>
 
+        <!--header -->
+        <div class="l-header">
+            <!-- img menu logo-->
+            <div class="l-logo ">
+                <a href="index.html">
+                    <img class="l-logo__mobile " src=".\img\Logo.png" alt="logo-bemapack" title="logo-bemapack"/>
+                </a>
+            </div>
+
+            <div class="l-logo-xs">
+                <img class="l-logo__xs" src=".\img\Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/>
+            </div>
+
+            <!-- img menu ham-->
+            <div id="menu-hamburger" class="menu-hamburger l-ham">
+                <span></span><span></span><span></span>
+            </div>
+            <div id="menu-up"></div>
+
+            <!--nav menu-->
+            <div id="menu-principale" class="l-nav__main l-menu ">
+                <nav>
+                    <ul>
+                        <li><a class="is-active hover" href="index.html">Accueil</a></li>
+                        <li><a class="is-active hover" href="realisations.html">Réalisations</a></li>
+                        <li><a class="is-active hover" href="catalogue.html">Catalogue</a></li>
+                        <li><a class="is-active hover blue-contact" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+            <main>
+
+                <div class="l-wrapper">
+
+                    <!--section banner -->
+                    <div class="l-section__banner">
+                        
+                        <div class="l-banner ">
+                            <img  class="l-banner-img " src=".\img\background-header.png" alt="logo-bemapack" title="logo-bemapack"/>       
+                            <img class=" l-img " src=".\img\presentation-banner-debonne.png" alt="bemapack" title="bemapack"/>
+                            <img class="l-logo-lg" src=".\img\Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/>
+                            <img class="l-txt--liner" src=".\img\logo-boite.png" alt="bemapack" title="bemapack"/>
+                            <p class="l-txt">
+                                <span>Leader </span> dans la fabrication <br>de boîtes pâtissières.
+                            </p>
+                            <img class="point__banner l-point" src=".\img\Points2x.png" alt="bemapack" title="bemapack"/>
+                            <div>
+                                <p class="crl--blue">
+                                    <a class="btn btn__banner " href="catalogue.html">Notre catalogue</a>
+                                    <span class="blue"></span>Nous pouvons vous aider <br>à réaliser vos idées.
+                                </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+            
+
+
+
+
+
+
+
+
+
+
+                <footer>
+                
+                    <div class="l-footer">
+    
+                        <div class="section__footer--left l-left ">
+                            <h1>Plan du Site</h1>
+                            <br />
+                            <a href="./index.html">Accueil</a><br /><br />
+                            <a href="./contact.html">Contactez nous </a><br /><br />
+                            <a href="./index.html">
+                            <img class="logo-footer" src=".\img\Logo + Bemapack.png" alt="logo-bemapack" title="logo-bemapack"/></a>
+                        </div>
+    
+                        <div class="section__footer--middle l-middle ">
+                            <h1>Contact & Infos</h1>
+                            <ul>
+                                <li>
+                                    <img class="icon" src=".\img\phone-call.png" />+32 87 25 96 60
+                                </li>
+                                <li>
+                                    <img class="icon" src=".\img\fax-1.png" />+32 87 25 96 61
+                                </li>
+                                <li>
+                                    <img class="icon" src=".\img\mail.png" />info@bemapack.be
+                                </li>
+                                <li>
+                                    <img class="icon" src=".\img\clock.png" />Du lundi au jeudi de
+                                    8h00 à 16h30
+                                </li>
+                                <li class="spacing">
+                                    et le vendredi de 8H00 à 12H00
+                                </li>
+                                <li>
+                                    <img class="icon" src=".\img\map-pin.png" />Rue de Rechain,43
+                                    4650 Chaineux
+                                </li>
+                                <li>
+                                    <img class="icon" src=".\img\map-pin.png" />Avenue du Parc,22
+                                    4650 Chaineux
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="section__footer--right l-right ">
+                            <h1>Commercial</h1>
+                            <p>
+                                <img class="icon" src=".\img\single-01.png" />Frédéric Beuvens
+                            </p>
+                            <p>
+                                <img class="icon" src=".\img\phone-call.png" />+32 495 25 91 67
+                            </p>
+                            <p>
+                                <img class="icon" src=".\img\mail.png" />f.beuvens@bemapack.be
+                            </p>
+                            <p>
+                                <img class="icon" src=".\img\mail.png" />t.materne@bemapack.be
+                            </p>
+                            <a class="btn btn--footer" href="./contact.html">Contactez nous <img class="post" src=".\img\mail icone.png"/></a>
+    
+                        </div>
+                
+                    </div>
+    
+                </footer>
+            
                 <div class="copyright">
                     <a href="http://www.facebook.com/siriuscoop/" target="_blank">© 2020 Bemapack | made with
                         <img class="icon--heart" src=".\img\like.png" /> by Sirius Coop</a>
                 </div>
-
-            </div>
-        </footer>
-
-        <script src="./js/main.js"></script>
-
-    </body>
-</html>
+            
+    
+            <script src="./js/main.js"></script>
+        </body>
+    </html>
