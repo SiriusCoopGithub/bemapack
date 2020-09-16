@@ -352,11 +352,12 @@
 }
 /********************FOOTER********************/
 footer{
+
     .l-footer{
         background: map-get($colors ,primary );
         width: 100%;
         height: auto;
-        
+        margin-top: 6rem;
     
         display: flex;
         flex-direction: column;
