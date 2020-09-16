@@ -1,11 +1,13 @@
 
 $break-point: (
+    xs: 600px,
     md:  740px,
+    md-plus: 799px,
     lg:  1124px,
 );
 
 $fonts: (
-    
+
     primary-font: "Segoe UI",
     secondary-font: "Quicksand"
 
