@@ -600,6 +600,13 @@ p {
   margin: 6rem auto 3rem 59rem;
 }
 
+/* functions */
+/* les FONCTIONS dans le projet */
+/*
+@function value($value-name){
+  @return map-get($values, $value-name)
+};
+*/
 /*modules*/
 /********************wrapper********************/
 .wrapper {

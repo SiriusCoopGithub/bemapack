@@ -1,0 +1,18 @@
+/* les FONCTIONS dans le projet */
+@function break-point($break-point-name){
+  @return map-get($break-point, $break-point-name)
+};
+
+@function font( $font-name){
+  @return map-get($fonts, $font-name)
+}
+
+@function color($color-name){
+  @return map-get($colors, $color-name)
+};
+/*
+@function value($value-name){
+  @return map-get($values, $value-name)
+};
+*/
+
