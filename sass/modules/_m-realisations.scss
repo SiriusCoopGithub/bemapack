@@ -1,0 +1,172 @@
+/* ICI commence le scss de _m-realisations */
+
+.yellow{
+  background-color: rgb(252,255,164);
+}
+.backimage>img {
+  max-width: 49%;
+  left: 139px;
+  top: -36px;
+}
+
+.coverrelatif img {
+  max-width: 50%;
+}
+
+.coverrelatif {
+  left: 170px;
+  bottom: 222px;
+}
+
+.coverrelatif-ter {
+  bottom: -317px;
+  left: 10px;
+}
+
+/* version petite tablette */
+@media screen and (min-width: break-point(xs)){
+
+  .backimage>img {
+    max-width: 104%;
+    left: 25px;
+    top: -22px;
+  }
+
+  .coverrelatif {
+    left: 27px;
+    bottom: 136px;
+  }
+
+  .coverrelatif img {
+    max-width: 41%;
+  }
+
+  .coverrelatif-ter {
+    left: 76px;
+  }
+}
+/* grande TABLETTE */
+@media screen and (min-width: break-point(md)){
+  .coverrelatif {
+    left: 52px;
+    bottom: 190px;
+  }
+
+  .coverrelatif-second {
+    left: -34px;
+    bottom: 121px;
+  }
+
+  .coverrelatif-ter {
+    left: 123px;
+    bottom: -126px;
+  }
+
+  .coverrelatif img {
+    max-width: 65%;
+  }
+
+  .backimage>img {
+    left: 34px;
+    max-width: 65%;
+    top: -42px;
+  }
+
+  .backimage-second img {
+    max-width: 100%;
+    left: -20px;
+    top: -213px;
+  }
+}
+/* petit PC portable */
+@media screen and (min-width: break-point(md-plus)){
+
+  .grid-containerAmoi {
+    display: grid;
+    grid-template-columns: 20% 13% 7% 15% 30% 15%;
+  }
+
+  .grid-containerAmoi>* {
+    padding-left: 10px;
+  }
+
+  .lime {
+    border: 4px dashed lime;
+    margin: 15px;
+  }
+
+  .bordure {
+    border: 1px dotted red;
+  }
+
+  span {
+    text-transform: capitalize;
+    font-weight: 800;
+  }
+
+
+  .backimage {
+    padding-left: 10px;
+  }
+
+  .backimage>img {
+    position: relative;
+    left: -33px;
+    max-width: 51%;
+    top: -21px;
+  }
+
+  .coverimage {
+    position: absolute;
+  }
+
+  .coverimage-second {
+    position: absolute;
+  }
+
+
+  .coverrelatif {
+    position: relative;
+    left: 88px;
+    bottom: 304px;
+  }
+
+  .coverrelatif-second {
+    position: relative;
+    left: -34px;
+    bottom: 176px;
+  }
+
+  .coverrelatif-ter {
+    position: relative;
+    left: 230px;
+    bottom: -20px;
+  }
+
+  .coverrelatif img {
+    max-width: 100%;
+  }
+
+  .coverrelatif-second img {
+    max-width: 30%;
+  }
+
+  .coverrelatif-ter img {
+    max-width: 50%;
+  }
+
+
+  .backimage-second {
+    padding-left: 10px;
+    margin-left: 20px;
+
+  }
+
+  .backimage-second img {
+    max-width: 68%;
+    position: relative;
+    left: -17px;
+    top: -147px;
+  }
+
+}
