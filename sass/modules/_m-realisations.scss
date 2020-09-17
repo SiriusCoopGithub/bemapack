@@ -1,51 +1,97 @@
 /* ICI commence le scss de _m-realisations */
+.lime {
+  margin: 15px;
+  //border: 4px dashed lime;
+}
 
+/*
 .yellow{
   background-color: rgb(252,255,164);
 }
-.backimage>img {
-  max-width: 49%;
-  left: 139px;
-  top: -36px;
+.bordure {
+  border: 1px dotted red;
+}
+*/
+
+span {
+  text-transform: capitalize;
+  font-weight: 800;
 }
 
-.coverrelatif img {
-  max-width: 50%;
+.backimage {
+  padding-left: 10px;
+}
+.backimage > img {
+  max-width: 49%;
+}
+
+.backimage-second img {
+  position: relative;
+  max-width: 100%;
+  left: -20px;
+  top: -213px;
+}
+
+.coverimage {
+  position: relative;
+  left: 39px;
+  bottom: 206px;
+  width: 84%;
+  padding-left: 64px;
+}
+
+.coverimage-ter{
+  display: none;
 }
 
 .coverrelatif {
-  left: 170px;
-  bottom: 222px;
+  padding-right: 10px;
+  width: 90%;
+  //border:1px solid blueviolet;
+}
+.coverrelatif img {
+  width: 85%;
+  z-index:5;
 }
 
-.coverrelatif-ter {
-  bottom: -317px;
-  left: 10px;
+.coverrelatif-second img {
+  max-width: 30%;
 }
 
-/* version petite tablette */
+/* version petite tablette  xs 600px */
 @media screen and (min-width: break-point(xs)){
-
+  .backimage{
+    position: absolute;
+    padding-left: 10px;
+  }
   .backimage>img {
     max-width: 104%;
-    left: 25px;
-    top: -22px;
+    left: 34px;
+    top: -42px;
   }
 
   .coverrelatif {
-    left: 27px;
-    bottom: 136px;
+    left: 91px;
+    bottom: 171px;
   }
-
   .coverrelatif img {
-    max-width: 41%;
+    max-width: 65%;
   }
 
   .coverrelatif-ter {
-    left: 76px;
+position: absolute;
+left: 70px;
+bottom: -138px;
+//border: 1px solid yellow;
+  }
+
+  .coverimage-ter{
+    display: block;
+    position: relative;
   }
 }
-/* grande TABLETTE */
+
+/* grande TABLETTE md = 740px */
 @media screen and (min-width: break-point(md)){
   .coverrelatif {
     left: 52px;
@@ -57,61 +103,25 @@
     bottom: 121px;
   }
 
-  .coverrelatif-ter {
-    left: 123px;
-    bottom: -126px;
-  }
-
-  .coverrelatif img {
-    max-width: 65%;
+  .coverrelatif-ter{
+    left: 277px;
+    bottom: -46px;
+    width: 35%;
   }
 
   .backimage>img {
-    left: 34px;
-    max-width: 65%;
-    top: -42px;
-  }
-
-  .backimage-second img {
-    max-width: 100%;
-    left: -20px;
-    top: -213px;
+    left: -98px;
+    max-width: 47%;
+    top: -28px;
   }
 }
-/* petit PC portable */
+
+/* petit PC portable md-plus 799px */
 @media screen and (min-width: break-point(md-plus)){
 
-  .grid-containerAmoi {
-    display: grid;
-    grid-template-columns: 20% 13% 7% 15% 30% 15%;
-  }
-
-  .grid-containerAmoi>* {
-    padding-left: 10px;
-  }
-
-  .lime {
-    border: 4px dashed lime;
-    margin: 15px;
-  }
-
-  .bordure {
-    border: 1px dotted red;
-  }
-
-  span {
-    text-transform: capitalize;
-    font-weight: 800;
-  }
-
-
-  .backimage {
-    padding-left: 10px;
-  }
-
-  .backimage>img {
+  .backimage > img {
     position: relative;
-    left: -33px;
+    left: 74px;
     max-width: 51%;
     top: -21px;
   }
@@ -124,49 +134,55 @@
     position: absolute;
   }
 
-
   .coverrelatif {
     position: relative;
-    left: 88px;
-    bottom: 304px;
+    left: 106px;
+    bottom: -109px;
+  }
+  .coverrelatif img {
+    max-width: 100%;
   }
 
   .coverrelatif-second {
     position: relative;
     left: -34px;
-    bottom: 176px;
+    bottom: -76px;
+   //border: 1px solid red;
   }
-
-  .coverrelatif-ter {
-    position: relative;
-    left: 230px;
-    bottom: -20px;
-  }
-
-  .coverrelatif img {
-    max-width: 100%;
-  }
-
   .coverrelatif-second img {
     max-width: 30%;
   }
 
-  .coverrelatif-ter img {
-    max-width: 50%;
+  .coverrelatif-ter {
+    position: absolute;
+    left: 310px;
+    bottom: -64px;
+    max-width: 34%;
+   // border: 1px solid yellow;
   }
-
+  .coverrelatif-ter img {
+    max-width: 55%;
+  }
 
   .backimage-second {
     padding-left: 10px;
     margin-left: 20px;
-
   }
 
   .backimage-second img {
     max-width: 68%;
-    position: relative;
     left: -17px;
     top: -147px;
   }
+}
+/* PC portable lg 1024px */
+@media screen and (min-width: break-point(lg)){
 
+  .coverrelatif-ter {
+      position: absolute;
+      left: 310px;
+      bottom: -90px;
+      max-width: 34%;
+    //  border: 1px solid yellow;
+  }
 }
