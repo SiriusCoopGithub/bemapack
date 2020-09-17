@@ -1,8 +1,13 @@
 
-/* 
+/*
     Created on : 20-12-2019, 20:01:31
     Author     : Sylviana Vanmessen
 */
+
+
+/* Make css mobile first */
+/*@import "compass"; */
+
 
 /* Reset for better compatibility */
 @import "base/reset";
@@ -14,9 +19,15 @@
 /* layout */
 @import "layout/l-layout";
 
+/* functions */
+@import "base/functions";
+
 /*modules*/
 @import "modules/_m-home";
 
+
 @import "modules/_m-realisations";
+@import "modules/m-realisations-grid";
+
 @import "modules/_m-catalogue";
 @import "modules/_m-contact";

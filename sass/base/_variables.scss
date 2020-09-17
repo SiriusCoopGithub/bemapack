@@ -1,18 +1,19 @@
 
 $break-point: (
-    xs:     612px,
-    md:     768px,
+
+    xs:     600px,
+    md:     740px,
+    md-plus: 799px,
     lg:    1024px,
     mlg:   1280px,
     xlg:   1360px,
     xxlg:  1420px,
-
     xtlg:  1920px,
     other: 1925px,
 );
 
 $fonts: (
-    
+
     primary-font: "Segoe UI",
     secondary-font: "Quicksand"
 
