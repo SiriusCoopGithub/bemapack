@@ -186,3 +186,9 @@ bottom: -138px;
     //  border: 1px solid yellow;
   }
 }
+/* PC portable lg 1024px */
+@media screen and (min-width: break-point(xlg)){
+  .backimage-second img {
+top: -180px;
+  }
+}

@@ -1542,6 +1542,12 @@ span {
     max-width: 34%;
   }
 }
+/* PC portable lg 1024px */
+@media screen and (min-width: 1360px) {
+  .backimage-second img {
+    top: -180px;
+  }
+}
 /*GRID REALISATION CARD1 */
 .grid-containerAmoi {
   display: grid;
