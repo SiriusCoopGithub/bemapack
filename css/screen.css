@@ -1542,7 +1542,7 @@ span {
     max-width: 34%;
   }
 }
-/* PC portable lg 1024px */
+/* PC portable xlg 1360px */
 @media screen and (min-width: 1360px) {
   .backimage-second img {
     top: -180px;
