@@ -1,0 +1,215 @@
+
+    .section__test{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
+        width: 100%;
+        
+        @media screen and (min-width: map-get($break-point, md)) {
+            
+        
+        }
+        @media screen and (min-width: map-get($break-point, lg)) {
+        
+            
+        }
+        @media screen and (min-width: map-get($break-point, mlg)) {
+            
+            
+            
+        }
+        
+            .cadre__creation {
+                
+                
+                img.bg{
+                    
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        
+                    }
+                }
+                @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    
+                    
+                }
+                .desc-creation{
+                    
+
+                
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        
+                
+                    }
+
+
+                .title__creation{
+                        
+                        
+                        
+                        
+                        
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                    
+                        
+                    }
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    }
+                    
+                }
+
+                .txt__creation {
+                    
+                    
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        
+                        
+                        
+                    }
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        margin: 2rem -0.5rem auto auto;
+                    
+                        
+                    }
+                    @media screen and (min-width: map-get($break-point, xxlg)) {
+                        
+                    
+                    }
+                }
+
+                }
+
+                .list{
+                    
+                    
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        
+                        
+                    }
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    
+                    }
+
+                    @media screen and (min-width: map-get($break-point, mlg)) {
+                    
+                        
+                    
+                    }
+
+                    .first-list{
+                    
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        
+                    }
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        
+                    }
+                
+                        li{
+                            
+                            
+
+                            @media screen and (min-width: map-get($break-point, lg)) {
+                            
+                            }
+                                            
+                            
+                            .check-li{
+                            
+
+                                @media screen and (min-width: map-get($break-point, md)) {
+                                
+                                }
+                                @media screen and (min-width: map-get($break-point, lg)) {
+                                
+                                    
+                                }
+                                .checked{
+                                
+                                }
+                            }
+                                
+                            
+                            
+                            
+                            }
+                        
+                    }   
+                }
+
+                .btn__creation{
+                    
+                    
+                    
+                        @media screen and (min-width: map-get($break-point, md)) {
+                            
+                            }
+
+                        @media screen and (min-width: map-get($break-point,lg )) {
+                            
+                            
+                            
+                            }
+                            @media screen and (min-width: map-get($break-point,mlg )) {
+                            
+                                
+                            
+                                }
+            }
+
+                
+
+                    
+                .illu-creation{
+                    
+                    
+                
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        
+                        
+                    }
+                
+                    .photo__creation{
+                        
+                        
+                
+                        @media screen and (min-width: map-get($break-point, md)) {
+                            
+                            
+                        }
+                        @media screen and (min-width: map-get($break-point, lg)) {
+                            
+                        }
+                    
+                    }
+                
+                    
+                    
+                }
+                .point__creation{
+                    
+            
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        
+                        }
+                    
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                    
+                    
+                
+                    }
+                    @media screen and (min-width: map-get($break-point, mlg)) {
+                    
+                        
+                    
+                        }
+                }
+        }
+
+    }
