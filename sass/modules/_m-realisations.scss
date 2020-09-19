@@ -1,200 +1,217 @@
 /* ICI commence le scss de _m-realisations */
 .m-wrap{
-.green{
-  border: 3px dashed yellowgreen;
-}
+  .green{
+    border: 3px dashed yellowgreen;
+  }
 
-.lime {
-  margin: 15px;
-  //border: 4px dashed lime;
-}
+  .lime {
+    margin: 15px;
+    //border: 4px dashed lime;
+  }
+  .title__primary2 {
+    font-style: italic;
+    margin:3rem auto 1rem auto;
 
-/*
-.yellow{
-  background-color: rgb(252,255,164);
-}
-.bordure {
-  border: 1px dotted red;
-}
-*/
+    color: map-get($colors,primary);
+    width: 100%;
+    font-size: 30px;
 
-span {
-  text-transform: capitalize;
-  font-weight: 800;
-}
+    span{
+    border-bottom: solid 3px map-get($colors , primaryGreen);
+    color: map-get($colors,primary);
+    font-weight: bold;
+    font-style: bold;
+    }
+  }
 
-.backimage {
-  padding-left: 10px;
-}
-.backimage > img {
-  max-width: 49%;
-}
+  /*
+  .yellow{
+    background-color: rgb(252,255,164);
+  }
+  .bordure {
+    border: 1px dotted red;
+  }
+  */
 
-.backimage-second img {
-  position: relative;
-  max-width: 100%;
-  left: -20px;
-  top: -213px;
-}
+  span {
+    text-transform: capitalize;
+    font-weight: 800;
+  }
 
-.coverimage {
-  position: relative;
-  left: 39px;
-  bottom: 206px;
-  width: 84%;
-  padding-left: 64px;
-}
-
-.coverimage-ter{
-  display: none;
-}
-
-.coverrelatif {
-  padding-right: 10px;
-  width: 90%;
-  //border:1px solid blueviolet;
-}
-.coverrelatif img {
-  width: 85%;
-  z-index:5;
-}
-
-.coverrelatif-second img {
-  max-width: 30%;
-}
-
-/* version petite tablette  xs 600px */
-@media screen and (min-width: break-point(xs)){
-  .backimage{
-    position: absolute;
+  .backimage {
     padding-left: 10px;
   }
-  .backimage>img {
-    max-width: 104%;
-    left: 34px;
-    top: -42px;
-  }
-
-  .coverrelatif {
-    left: 91px;
-    bottom: 171px;
-  }
-  .coverrelatif img {
-    max-width: 65%;
-  }
-
-  .coverrelatif-ter {
-position: absolute;
-left: 70px;
-bottom: -138px;
-//border: 1px solid yellow;
-  }
-
-  .coverimage-ter{
-    display: block;
-    position: relative;
-  }
-}
-
-/* grande TABLETTE md = 740px */
-@media screen and (min-width: break-point(md)){
-  .coverrelatif {
-    left: 52px;
-    bottom: 190px;
-  }
-
-  .coverrelatif-second {
-    left: -34px;
-    bottom: 121px;
-  }
-
-  .coverrelatif-ter{
-    left: 277px;
-    bottom: -46px;
-    width: 35%;
-  }
-
-  .backimage>img {
-    left: -98px;
-    max-width: 47%;
-    top: -28px;
-  }
-}
-
-/* petit PC portable md-plus 799px */
-@media screen and (min-width: break-point(md-plus)){
-
   .backimage > img {
+    max-width: 49%;
+  }
+
+  .backimage-second img {
     position: relative;
-    left: 74px;
-    max-width: 51%;
-    top: -21px;
+    max-width: 100%;
+    left: -20px;
+    top: -213px;
   }
 
   .coverimage {
-    position: absolute;
+    position: relative;
+    left: 39px;
+    bottom: 206px;
+    width: 84%;
+    padding-left: 64px;
   }
 
-  .coverimage-second {
-    position: absolute;
+  .coverimage-ter{
+    display: none;
   }
 
   .coverrelatif {
-    position: relative;
-    left: 106px;
-    bottom: -109px;
+    padding-right: 10px;
+    width: 90%;
+    //border:1px solid blueviolet;
   }
   .coverrelatif img {
-    max-width: 100%;
+    width: 85%;
+    z-index:5;
   }
 
-  .coverrelatif-second {
-    position: relative;
-    left: -34px;
-    bottom: -76px;
-   //border: 1px solid red;
-  }
   .coverrelatif-second img {
     max-width: 30%;
   }
 
-  .coverrelatif-ter {
-    position: absolute;
-    left: 310px;
-    bottom: -64px;
-    max-width: 34%;
-   // border: 1px solid yellow;
-  }
-  .coverrelatif-ter img {
-    max-width: 55%;
+  /* version petite tablette  xs 600px */
+  @media screen and (min-width: break-point(xs)){
+    .backimage{
+      position: absolute;
+      padding-left: 10px;
+    }
+    .backimage>img {
+      max-width: 104%;
+      left: 34px;
+      top: -42px;
+    }
+
+    .coverrelatif {
+      left: 91px;
+      bottom: 171px;
+    }
+    .coverrelatif img {
+      max-width: 65%;
+    }
+
+    .coverrelatif-ter {
+  position: absolute;
+  left: 70px;
+  bottom: -138px;
+  //border: 1px solid yellow;
+    }
+
+    .coverimage-ter{
+      display: block;
+      position: relative;
+    }
   }
 
-  .backimage-second {
-    padding-left: 10px;
-    margin-left: 20px;
+  /* grande TABLETTE md = 740px */
+  @media screen and (min-width: break-point(md)){
+    .coverrelatif {
+      left: 52px;
+      bottom: 190px;
+    }
+
+    .coverrelatif-second {
+      left: -34px;
+      bottom: 121px;
+    }
+
+    .coverrelatif-ter{
+      left: 277px;
+      bottom: -46px;
+      width: 35%;
+    }
+
+    .backimage>img {
+      left: -98px;
+      max-width: 47%;
+      top: -28px;
+    }
   }
 
-  .backimage-second img {
-    max-width: 68%;
-    left: -17px;
-    top: -147px;
-  }
-}
-/* PC portable lg 1024px */
-@media screen and (min-width: break-point(lg)){
+  /* petit PC portable md-plus 799px */
+  @media screen and (min-width: break-point(md-plus)){
 
-  .coverrelatif-ter {
+    .backimage > img {
+      position: relative;
+      left: 74px;
+      max-width: 51%;
+      top: -21px;
+    }
+
+    .coverimage {
+      position: absolute;
+    }
+
+    .coverimage-second {
+      position: absolute;
+    }
+
+    .coverrelatif {
+      position: relative;
+      left: 106px;
+      bottom: -109px;
+    }
+    .coverrelatif img {
+      max-width: 100%;
+    }
+
+    .coverrelatif-second {
+      position: relative;
+      left: -34px;
+      bottom: -76px;
+    //border: 1px solid red;
+    }
+    .coverrelatif-second img {
+      max-width: 30%;
+    }
+
+    .coverrelatif-ter {
       position: absolute;
       left: 310px;
-      bottom: -90px;
+      bottom: -64px;
       max-width: 34%;
-    //  border: 1px solid yellow;
+    // border: 1px solid yellow;
+    }
+    .coverrelatif-ter img {
+      max-width: 55%;
+    }
+
+    .backimage-second {
+      padding-left: 10px;
+      margin-left: 20px;
+    }
+    .backimage-second img {
+      max-width: 68%;
+      left: -17px;
+      top: -147px;
+    }
+
   }
-}
-/* PC portable xlg 1360px */
-@media screen and (min-width: break-point(xlg)){
-  .backimage-second img {
-top: -180px;
+
+  /* PC portable lg 1024px */
+  @media screen and (min-width: break-point(lg)){
+    .coverrelatif-ter {
+        position: absolute;
+        left: 310px;
+        bottom: -90px;
+        max-width: 34%;
+      //  border: 1px solid yellow;
+    }
   }
-}
+
+  /* PC portable xlg 1360px */
+  @media screen and (min-width: break-point(xlg)){
+    .backimage-second img {
+  top: -180px;
+    }
+  }
+
 }
