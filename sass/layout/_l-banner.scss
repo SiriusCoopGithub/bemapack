@@ -290,7 +290,7 @@
                         position: relative;
                         margin: -7.2rem auto auto 2rem;
                         color: white;
-                        font-size: 14px;
+                        font-size: 18px;
                         z-index: 997;
                         width: 80%;
                             p{
@@ -301,7 +301,7 @@
 
                         @media screen and (min-width: map-get($break-point, md)) {
                             
-                            margin: -7.2rem 1rem auto 5rem;
+                            margin: -7.2rem 1rem auto 5.5rem;
                             color: white;
                             
                             width: 48%;
@@ -309,7 +309,7 @@
                             
                             p{
                                 display:flex;
-                                font-size: 14px;
+                                font-size: 16px;
                                 padding-left:1rem;
                                 ::before  {
                                     content: ">";

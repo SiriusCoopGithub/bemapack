@@ -107,7 +107,7 @@
                 
 
                 @media screen and (min-width: map-get($break-point, md)) {
-                    text-align: left;
+                    
                     margin-left: auto;
                     margin-right: auto;
                 }
@@ -125,13 +125,14 @@
                 padding-top: 5rem;
                 width: 100%;
                 text-align: center;
+                
             
         
                 @media screen and (min-width: map-get($break-point, md)) {
                     z-index: 999;
                     width: auto;
                     height: 4rem;
-                    text-align: left;
+                    
                     position: inherit;
                     padding-top: 1rem;
                     display: inline-block;
@@ -139,7 +140,7 @@
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
                 
-                    text-align: right;
+                    
                     
                 }
                 @media screen and (min-width: map-get($break-point, xxlg)) {
@@ -176,7 +177,7 @@
                     
                 text-decoration: none;
                 
-                text-align: center;
+                
                 color: map-get($colors,main);
                 font-size: 25px;
                 
@@ -294,7 +295,7 @@
                 
             z-index: 9999;
             display: grid;
-            float: right;
+            
                 
     
                 @media screen and (min-width: map-get($break-point, md)) {
