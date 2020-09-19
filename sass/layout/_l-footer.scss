@@ -10,6 +10,7 @@ footer{
         display: flex;
         flex-direction: column;
 
+
         @media screen and (min-width: map-get($break-point, lg)) {
             flex-direction: row;
             justify-content: space-around;
@@ -124,7 +125,7 @@ footer{
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    margin-left: -1rem;
+    margin-left: -6rem;
     width: auto;
     background-color:map-get($colors , primary ); 
 

@@ -247,7 +247,7 @@
                         }
 
                         @media screen and (min-width: map-get($break-point, lg)) {
-                            margin:-14.5rem auto auto 13rem;
+                            margin:-14.5rem auto auto 12rem;
                             width: 11rem;
                         }
                         @media screen and (min-width: map-get($break-point, mlg)) {
@@ -270,6 +270,9 @@
 
                             @media screen and (min-width: map-get($break-point, md)) {
                                 margin-left:-2rem;
+                            }
+                            @media screen and (min-width: map-get($break-point, lg)) {
+                                margin-left:-5rem;
                             }
                             @media screen and (min-width: map-get($break-point, mlg)) {
                                 font-size: 22px;
@@ -322,8 +325,9 @@
                         }
                 
                         @media screen and (min-width: map-get($break-point, lg)) {
-                            margin: -11.2rem auto auto 10rem;
+                            margin: -11.2rem auto auto 11rem;
                             width: 40%;
+                            font-size: 20px;
                             
                         }
 

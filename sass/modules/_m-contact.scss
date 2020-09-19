@@ -13,9 +13,7 @@
             display: none;
 
             @media screen and (min-width: map-get($break-point, md)) {
-                
-                
-                
+
             }
             @media screen and (min-width: map-get($break-point, lg)) {
                 
@@ -223,12 +221,8 @@
                     text-align: center;
                     max-width: auto;
                     
-
-                    
-                    
                     
                     @media screen and (min-width: map-get($break-point, md)) {
-
                         margin:0;
                         margin-right: 5rem;
                         padding:auto 2rem auto 1rem;
