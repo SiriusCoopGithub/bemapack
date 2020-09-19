@@ -78,12 +78,7 @@
 
             background: map-get($colors,primary);
         
-            &.is-visible {
-                
-                display: inline-block;
-                
         
-            }
             @media screen and (min-width: map-get($break-point, md)) {
                 background: none;
                 width: auto;
@@ -189,13 +184,17 @@
                     margin:auto auto auto 1rem;
         
         
-                &:hover, &.is-active {
-                    right: 0;
+                &:hover, {
+                    color: map-get($colors,primaryGreen);
                 }
             
         
                 &.blue-contact{
                     color: map-get($colors,primaryGreen);
+
+                    &:hover, {
+                        color: map-get($colors,primary);
+                    }
                 }
                 }
         
