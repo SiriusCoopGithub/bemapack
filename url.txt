@@ -1,3 +1,3 @@
 
-URL gitub:
+URL gitubPages:
 https://siriuscoopgithub.github.io/bemapack/
