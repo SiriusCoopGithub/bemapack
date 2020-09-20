@@ -1746,6 +1746,16 @@ footer .l-footer .section__footer--right .btn--footer {
 .m-wrap .coverrelatif-second img {
   max-width: 30%;
 }
+@media screen and (min-width: 370px) {
+  .m-wrap .coverrelatif img {
+    width: 88%;
+    padding-left: 10px;
+  }
+  .m-wrap .coverimage-ter img {
+    width: 130%;
+    padding-left: 30px;
+  }
+}
 @media screen and (min-width: 600px) {
   .m-wrap .backimage {
     position: absolute;
@@ -1880,17 +1890,18 @@ footer .l-footer .section__footer--right .btn--footer {
 
 .item-2 {
   grid-column: 1/7;
-  grid-row: 3/4;
+  grid-row: 3/5;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 138px;
   background: lightgray;
+  border: yellowgreen;
 }
 
 .item-3 {
   grid-column: 1/7;
   grid-row: 4/6;
-  margin-bottom: 30px;
+  margin-bottom: 178px;
   padding-bottom: 10px;
   margin-top: 30px;
   border-top: 3px solid yellow;

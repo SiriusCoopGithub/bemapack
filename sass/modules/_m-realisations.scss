@@ -84,6 +84,14 @@
   }
   /* version moyen mobile xxs 370px */
   @media screen and (min-width: break-point(xxs)){
+    .coverrelatif img{
+      width: 88%;
+      padding-left: 10px;
+    }
+    .coverimage-ter img{
+      width: 130%;
+      padding-left: 30px;
+    }
 
   }
 
