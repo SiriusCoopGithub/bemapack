@@ -14,13 +14,12 @@
 
     color: map-get($colors,primary);
     width: 100%;
-    font-size: 30px;
+    font-size: 1.4rem; //30px
 
     span{
     border-bottom: solid 3px map-get($colors , primaryGreen);
     color: map-get($colors,primary);
-    font-weight: bold;
-    font-style: bold;
+
     }
   }
 
@@ -42,7 +41,9 @@
     padding-left: 10px;
   }
   .backimage > img {
-    max-width: 49%;
+    max-width: 88%;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .backimage-second img {
@@ -54,14 +55,18 @@
 
   .coverimage {
     position: relative;
-    left: 39px;
-    bottom: 206px;
+    left: -36px;
+    bottom: 243px;
     width: 84%;
     padding-left: 64px;
   }
 
   .coverimage-ter{
-    display: none;
+    display: block;
+    position: relative;
+    width: 25%;
+    left: 132px;
+    bottom: 237px;
   }
 
   .coverrelatif {
@@ -70,12 +75,16 @@
     //border:1px solid blueviolet;
   }
   .coverrelatif img {
-    width: 85%;
+    width: 104%;
     z-index:5;
   }
 
   .coverrelatif-second img {
     max-width: 30%;
+  }
+  /* version moyen mobile xxs 370px */
+  @media screen and (min-width: break-point(xxs)){
+
   }
 
   /* version petite tablette  xs 600px */
