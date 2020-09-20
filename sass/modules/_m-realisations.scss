@@ -82,8 +82,8 @@
   .coverrelatif-second img {
     max-width: 30%;
   }
-  /* version moyen mobile xxs 370px */
-  @media screen and (min-width: break-point(xxs)){
+  /* version petit mobile xxxs 370px */
+  @media screen and (min-width: break-point(xxxs)){
     .coverrelatif img{
       width: 88%;
       padding-left: 10px;
@@ -94,6 +94,24 @@
     }
 
   }
+  /* version moyen mobile xxs 420px */
+  @media screen and (min-width: break-point (xxs)){
+    .title__primary2{
+      font-size: 1.6rem;
+    }
+
+    .coverimage{
+      bottom: 309px;
+    }
+    .coverimage-ter {
+      width: 28%;
+      left: 136px;
+      bottom: 285px;
+      padding-left: 10px;
+    }
+
+  }
+
 
   /* version petite tablette  xs 600px */
   @media screen and (min-width: break-point(xs)){
