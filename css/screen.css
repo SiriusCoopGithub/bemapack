@@ -1138,7 +1138,7 @@ img {
 /* line 122, ../sass/layout/_l-header.scss */
 .l-header .l-nav__main.l-menu nav ul {
   height: 100vh;
-  padding-top: 5rem;
+  padding-top: 4rem;
   width: 100%;
   text-align: center;
 }
@@ -1150,7 +1150,7 @@ img {
     height: 4rem;
     text-align: left;
     position: inherit;
-    padding-top: 1rem;
+    padding-top: 0rem;
     display: block;
     font-size: 18px;
   }
@@ -1723,7 +1723,7 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 221, ../sass/modules/_m-home.scss */
 .section__detail .btn--detail--home {
-  margin: 0rem auto auto 0rem;
+  margin: 2rem auto auto 0rem;
   display: block;
 }
 @media screen and (min-width: 740px) {
