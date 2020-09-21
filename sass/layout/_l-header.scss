@@ -80,7 +80,7 @@
 
             &.is-visible {
 
-                
+                display:block;
 
 
             }
@@ -103,7 +103,6 @@
 
                 margin-left: auto;
                 margin-right: auto;
-                
 
 
 
@@ -134,8 +133,8 @@
                     height: 4rem;
                     text-align: left;
                     position: inherit;
-                    padding-top: 0;
-                    
+                    padding-top: 1rem;
+                    display: block;
                     font-size: 18px;
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
@@ -163,7 +162,7 @@
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: inline-block;
-                    margin:auto 0rem auto -0.5rem;
+                    margin:auto 0rem auto 0rem;
 
                     &:hover {
                         transform: scale(.9);
@@ -188,25 +187,15 @@
                     padding: 0.2rem 0.5rem;
                     margin:auto auto auto 1rem;
 
-                    &:hover {
-                        color: map-get($colors,primaryGreen);
 
-                        
-                    }
                 &:hover, &.is-active {
                     right: 0;
-                    
                 }
 
 
                 &.blue-contact{
                     color: map-get($colors,primaryGreen);
 
-                    &:hover {
-                        color: map-get($colors,secondary-light);
-
-                        
-                    }
                 }
                 }
 
