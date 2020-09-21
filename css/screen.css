@@ -2751,18 +2751,27 @@ footer .l-footer .section__footer--right .btn--footer {
     margin-top: 4rem;
   }
 }
-/* line 1216, ../sass/modules/_m-home.scss */
+@media screen and (min-width: 1360px) {
+  /* line 1194, ../sass/modules/_m-home.scss */
+  .section__detail--footer {
+    background: none;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+  }
+}
+/* line 1222, ../sass/modules/_m-home.scss */
 .section__detail--footer .cadre__detail {
   padding-bottom: 2rem;
 }
 @media screen and (min-width: 1280px) {
-  /* line 1216, ../sass/modules/_m-home.scss */
+  /* line 1222, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail {
     margin: auto;
     display: flex;
   }
 }
-/* line 1229, ../sass/modules/_m-home.scss */
+/* line 1235, ../sass/modules/_m-home.scss */
 .section__detail--footer .cadre__detail .txt__liner--green-2 {
   margin: 1.5rem auto auto auto;
   text-align: left;
@@ -2772,14 +2781,14 @@ footer .l-footer .section__footer--right .btn--footer {
   width: 100%;
   line-height: 2rem;
 }
-/* line 1239, ../sass/modules/_m-home.scss */
+/* line 1245, ../sass/modules/_m-home.scss */
 .section__detail--footer .cadre__detail .txt__liner--green-2 span {
   border-bottom: solid 3px #4eb748;
   color: #033752;
   font-style: bold;
 }
 @media screen and (min-width: 740px) {
-  /* line 1229, ../sass/modules/_m-home.scss */
+  /* line 1235, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail .txt__liner--green-2 {
     margin: 2rem auto auto auto;
     font-size: 20px;
@@ -2788,7 +2797,7 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1229, ../sass/modules/_m-home.scss */
+  /* line 1235, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail .txt__liner--green-2 {
     width: 80%;
     padding-bottom: 2rem;
@@ -2796,7 +2805,7 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 1229, ../sass/modules/_m-home.scss */
+  /* line 1235, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail .txt__liner--green-2 {
     width: 50%;
     justify-content: space-between;
@@ -2805,7 +2814,7 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 1271, ../sass/modules/_m-home.scss */
+  /* line 1277, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail .img--detail-footer {
     display: block;
     margin-left: -1rem;
@@ -2820,37 +2829,37 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 1271, ../sass/modules/_m-home.scss */
+  /* line 1277, ../sass/modules/_m-home.scss */
   .section__detail--footer .cadre__detail .img--detail-footer {
     max-height: 45REM;
   }
 }
-/* line 1299, ../sass/modules/_m-home.scss */
+/* line 1305, ../sass/modules/_m-home.scss */
 .section__detail--footer .btn--detail {
   margin: 2rem auto auto 0rem;
   display: block;
   max-width: auto;
 }
 @media screen and (min-width: 740px) {
-  /* line 1299, ../sass/modules/_m-home.scss */
+  /* line 1305, ../sass/modules/_m-home.scss */
   .section__detail--footer .btn--detail {
     margin: 1rem auto 2rem 0rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1299, ../sass/modules/_m-home.scss */
+  /* line 1305, ../sass/modules/_m-home.scss */
   .section__detail--footer .btn--detail {
     margin: 0rem auto auto 23rem;
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 1299, ../sass/modules/_m-home.scss */
+  /* line 1305, ../sass/modules/_m-home.scss */
   .section__detail--footer .btn--detail {
     margin: -1rem auto auto 23rem;
   }
 }
 @media screen and (min-width: 1420px) {
-  /* line 1299, ../sass/modules/_m-home.scss */
+  /* line 1305, ../sass/modules/_m-home.scss */
   .section__detail--footer .btn--detail {
     margin: -3rem auto auto 23rem;
   }
