@@ -608,7 +608,7 @@
                         font-weight: normal;
                         font-size: 20px;
                         text-align: left;
-                        margin:10rem 1rem 2rem 1rem;
+                        margin:rem 1rem 2rem 1rem;
                         font-weight:normal;
 
 
@@ -847,9 +847,10 @@
                         @media screen and (min-width: map-get($break-point, lg)) {
                             display: block;
                             grid-column: 1/2;
-                            grid-row: 4/7;
+                            grid-row: 2/7;
                             width: 150%;
                             z-index: 998;
+                            margin-top: 5rem;
                             
                     }
 
@@ -872,7 +873,7 @@
                                 
                                 display: block;
                                 grid-column: 1/2;
-                                grid-row: 1/7;
+                                grid-row: 1/5;
                                 width: 100%;
                                 z-index: 998;
                                 width:50%;
@@ -898,7 +899,7 @@
                                 width: 100%;
                                 z-index: 998;
                                 width:50%;
-                                margin-top: -15rem;
+                                margin-top: -17rem;
                                 margin-left: -5rem;
                             }
                         
@@ -1149,7 +1150,7 @@
                                 }
                                 @media screen and (min-width: map-get($break-point, xtlg)) {
                                     
-                                    margin-top: 3rem;
+                                    margin-top: 2rem;
                                     margin-left: 10rem;
                                     
                             
@@ -1192,7 +1193,7 @@
                         }
                         @media screen and (min-width: map-get($break-point, xtlg)) {
                                 
-                            margin: 2rem auto auto 25rem ;
+                            margin: 2rem auto auto 20rem ;
                             
                     
                         }
