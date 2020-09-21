@@ -218,7 +218,7 @@
 
     }
             
-        .btn--detail{
+        .btn--detail--home{
                     
             margin:0rem auto auto 0rem;
             display: block;
@@ -399,10 +399,10 @@
                     margin:-37rem auto auto auto;
                 }
                 .logo__partners{
-                    width: 4rem;
+                    width: 7rem;
                     height: auto;
-                    margin: auto;
-                    padding: 0.5rem;
+                    margin-bottom: 0.7rem;
+                    padding: 0.7rem;
                     border-color:3px solid map-get($colors,primary ); 
                     
                     
@@ -545,7 +545,7 @@
 
                     .title__creation{
                         
-                            margin: auto 0 0rem 1rem ;
+                            margin: auto 0 1rem 1rem ;
                             color: map-get($colors,main);
                             line-height: 2rem;
                             z-index: 1;
@@ -647,7 +647,7 @@
 
                     .list{
                         
-                        margin: 2rem 1rem auto 0rem ;
+                        margin: 2rem 1rem 5rem 0rem ;
                         width: auto;
                         position: relative;
                         z-index: 998;
@@ -683,7 +683,7 @@
                             width: auto;
                             margin-left:auto;
                         }
-                   
+                
                         @media screen and (min-width: map-get($break-point, lg)) {
                             display: block;
                             grid-row: 4/5;
@@ -794,7 +794,7 @@
 
                     .btn__creation{
                         margin: 0rem auto 2rem 4rem;
-                        z-index: 995;
+                        z-index: 996;
                         position: relative;
                         max-width: 12rem;
                         
@@ -1068,7 +1068,7 @@
                 
                         .txt__liner--green-2{
                             margin:1.5rem auto auto auto;
-                            
+                            padding-bottom: 1rem;
                             text-align: left;
                             color: map-get($colors,primary );
                             max-width: auto;
@@ -1079,7 +1079,7 @@
                                 span{
                                     border-bottom: solid 3px map-get($colors , primaryGreen);
                                     color: map-get($colors,primary ); 
-                                    font-style: bold;
+                                    font-style: bolder;
                                 }
                 
                 
@@ -1165,8 +1165,8 @@
                     }
                             
                     .btn--detail{
-                                
-                        margin:0rem auto auto 0rem;
+                        
+                        margin:2rem auto auto 0rem;
                         display: block;
             
                         @media screen and (min-width: map-get($break-point, md)) {  
@@ -1200,9 +1200,9 @@
         /********************section etail--footer*******************/
         .section__detail--footer{
             
-            margin:5rem;
+            margin:1rem;
             display: block;
-            padding-top: 4rem;
+            
             width: auto;
             
             @media screen and (min-width: map-get($break-point, md)) {
@@ -1235,7 +1235,7 @@
 
 
             .txt__liner--green-2{
-                margin:1.5rem auto auto auto;
+                margin:1.5rem auto 2rem auto;
                 
                 text-align: left;
                 color: map-get($colors,primary );

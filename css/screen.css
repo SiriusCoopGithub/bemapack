@@ -90,6 +90,7 @@ img {
   max-width: 20rem;
   font-weight: bold;
   justify-content: center;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 1280px) {
   /* line 84, ../sass/base/_base.scss */
@@ -1266,7 +1267,7 @@ img {
   width: 2rem;
   height: 2rem;
   margin: 1.5rem 1rem 1rem 1rem;
-  right: 0;
+  right: 1rem;
   position: fixed;
   z-index: 1000;
   transform: rotate(0deg);
@@ -1280,7 +1281,7 @@ img {
     display: none;
   }
 }
-/* line 281, ../sass/layout/_l-header.scss */
+/* line 282, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham span {
   height: .12rem;
   margin-bottom: -0.9rem;
@@ -1293,37 +1294,37 @@ img {
   transform: rotate(0deg);
   transition: .25s ease-in-out;
 }
-/* line 297, ../sass/layout/_l-header.scss */
+/* line 298, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open {
   z-index: 9999;
   display: grid;
   float: right;
 }
 @media screen and (min-width: 740px) {
-  /* line 297, ../sass/layout/_l-header.scss */
+  /* line 298, ../sass/layout/_l-header.scss */
   .l-header #menu-hamburger.l-ham.is-open {
     display: none;
   }
 }
-/* line 308, ../sass/layout/_l-header.scss */
+/* line 309, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open span {
   background: white;
 }
-/* line 311, ../sass/layout/_l-header.scss */
+/* line 312, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open span:nth-child(1) {
   transform: rotate(60deg);
   margin-top: 0.68rem;
 }
-/* line 317, ../sass/layout/_l-header.scss */
+/* line 318, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open span:nth-child(2) {
   transform: rotate(-60deg);
 }
-/* line 322, ../sass/layout/_l-header.scss */
+/* line 323, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open span:nth-child(3) {
   top: 0rem;
   width: 0%;
 }
-/* line 335, ../sass/layout/_l-header.scss */
+/* line 336, ../sass/layout/_l-header.scss */
 .l-header #menu-hamburger.l-ham.is-open:before {
   background: transparent;
 }
@@ -1721,38 +1722,38 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 /* line 221, ../sass/modules/_m-home.scss */
-.section__detail .btn--detail {
+.section__detail .btn--detail--home {
   margin: 0rem auto auto 0rem;
   display: block;
 }
 @media screen and (min-width: 740px) {
   /* line 221, ../sass/modules/_m-home.scss */
-  .section__detail .btn--detail {
+  .section__detail .btn--detail--home {
     margin: 1rem auto 2rem 0rem;
   }
 }
 @media screen and (min-width: 1024px) {
   /* line 221, ../sass/modules/_m-home.scss */
-  .section__detail .btn--detail {
+  .section__detail .btn--detail--home {
     margin-top: 4rem;
   }
 }
 @media screen and (min-width: 1280px) {
   /* line 221, ../sass/modules/_m-home.scss */
-  .section__detail .btn--detail {
+  .section__detail .btn--detail--home {
     margin: 2rem auto auto 10rem;
     max-width: 20rem;
   }
 }
 @media screen and (min-width: 1420px) {
   /* line 221, ../sass/modules/_m-home.scss */
-  .section__detail .btn--detail {
+  .section__detail .btn--detail--home {
     margin: 2rem auto auto auto;
   }
 }
 @media screen and (min-width: 1920px) {
   /* line 221, ../sass/modules/_m-home.scss */
-  .section__detail .btn--detail {
+  .section__detail .btn--detail--home {
     margin: 2rem auto auto 25rem;
   }
 }
@@ -1927,10 +1928,10 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 401, ../sass/modules/_m-home.scss */
 .section__logo .content__logo .logo__partners {
-  width: 4rem;
+  width: 7rem;
   height: auto;
-  margin: auto;
-  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+  padding: 0.7rem;
   border-color: 3px solid #033752;
 }
 /* line 410, ../sass/modules/_m-home.scss */
@@ -2070,7 +2071,7 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 546, ../sass/modules/_m-home.scss */
 .section__creation .cadre__creation .desc-creation .title__creation {
-  margin: auto 0 0rem 1rem;
+  margin: auto 0 1rem 1rem;
   color: white;
   line-height: 2rem;
   z-index: 1;
@@ -2172,7 +2173,7 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 648, ../sass/modules/_m-home.scss */
 .section__creation .cadre__creation .list {
-  margin: 2rem 1rem auto 0rem;
+  margin: 2rem 1rem 5rem 0rem;
   width: auto;
   position: relative;
   z-index: 998;
@@ -2316,7 +2317,7 @@ footer .l-footer .section__footer--right .btn--footer {
 /* line 795, ../sass/modules/_m-home.scss */
 .section__creation .cadre__creation .btn__creation {
   margin: 0rem auto 2rem 4rem;
-  z-index: 995;
+  z-index: 996;
   position: relative;
   max-width: 12rem;
 }
@@ -2609,6 +2610,7 @@ footer .l-footer .section__footer--right .btn--footer {
 /* line 1069, ../sass/modules/_m-home.scss */
 .section__realisation .cadre__detail .txt__liner--green-2 {
   margin: 1.5rem auto auto auto;
+  padding-bottom: 1rem;
   text-align: left;
   color: #033752;
   max-width: auto;
@@ -2620,7 +2622,7 @@ footer .l-footer .section__footer--right .btn--footer {
 .section__realisation .cadre__detail .txt__liner--green-2 span {
   border-bottom: solid 3px #4eb748;
   color: #033752;
-  font-style: bold;
+  font-style: bolder;
 }
 @media screen and (min-width: 740px) {
   /* line 1069, ../sass/modules/_m-home.scss */
@@ -2699,7 +2701,7 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 1167, ../sass/modules/_m-home.scss */
 .section__realisation .btn--detail {
-  margin: 0rem auto auto 0rem;
+  margin: 2rem auto auto 0rem;
   display: block;
 }
 @media screen and (min-width: 740px) {
@@ -2737,9 +2739,8 @@ footer .l-footer .section__footer--right .btn--footer {
 /********************section etail--footer*******************/
 /* line 1201, ../sass/modules/_m-home.scss */
 .section__detail--footer {
-  margin: 5rem;
+  margin: 1rem;
   display: block;
-  padding-top: 4rem;
   width: auto;
 }
 @media screen and (min-width: 740px) {
@@ -2771,7 +2772,7 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 /* line 1237, ../sass/modules/_m-home.scss */
 .section__detail--footer .cadre__detail .txt__liner--green-2 {
-  margin: 1.5rem auto auto auto;
+  margin: 1.5rem auto 2rem auto;
   text-align: left;
   color: #033752;
   max-width: auto;
