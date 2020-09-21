@@ -794,7 +794,7 @@
 
                     .btn__creation{
                         margin: 0rem auto 2rem 4rem;
-                        z-index: 999;
+                        z-index: 995;
                         position: relative;
                         max-width: 12rem;
                         
@@ -812,6 +812,7 @@
                                 @media screen and (min-width: map-get($break-point,mlg )) {
                                     margin:-15rem auto auto 35rem;
                                     max-width: 15rem;
+                                    z-index: 995;
                                     
                                     }
 
@@ -980,6 +981,7 @@
 
                 @media screen and (min-width: map-get($break-point, mlg)) {
                     margin:auto;
+                    display: flex;
                 }
 
 
@@ -1007,7 +1009,6 @@
                     text-align: auto;
                     width: 100%;
                     
-                    line-height: 2rem;
                     
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
@@ -1017,7 +1018,11 @@
                 }
                 @media screen and (min-width: map-get($break-point, mlg)) {
                     
-                    
+                    width: 50%;
+                    justify-content: space-between;
+                    line-height: 2.5rem;
+                    padding-right: 3rem;
+
                 }
                 
 
@@ -1032,7 +1037,10 @@
                         margin-bottom:3rem;
                         margin-top: 2rem;
                         height: auto;
-                        
+                        width: 100%;
+                        padding-right:4rem ;
+                        justify-content: space-between;
+                        background-image:cover;
                     }
                 
             }  
@@ -1051,10 +1059,12 @@
             }
 
             @media screen and (min-width: map-get($break-point, lg)) {
+                margin: 0rem auto auto 23rem ;
+
             }
 
             @media screen and (min-width: map-get($break-point, mlg)) {
-                margin: -3rem auto auto 23rem ;
+                margin: -1rem auto auto 23rem ;
             }
             @media screen and (min-width: map-get($break-point, xxlg)) {
                 margin: -3rem auto auto 23rem ;
