@@ -961,7 +961,14 @@
                     margin-top: auto;
                     
                 }
-    
+                @media screen and (min-width: map-get($break-point, xxlg)) {
+                    background: none;
+                    height: auto;
+                    width: 100%;
+                    margin-top: 7rem;
+                    padding-top: 3rem;
+                    
+                }
             
     
                 .cadre__detail{
@@ -1210,14 +1217,9 @@
                 width: 100%;
                 margin-top: 4rem;
                 
-            }
-            @media screen and (min-width: map-get($break-point, xlg)) {
-                background: none;
-                height: auto;
-                width: 100%;
-                margin-top: 7rem;
                 
             }
+           
 
         .cadre__detail{
             
