@@ -115,6 +115,9 @@ footer{
                 .btn--footer{
                     float: left;
                     margin: 2rem auto auto 0;
+                    @media screen and (min-width: map-get($break-point, lg)) {
+                        margin: 2rem auto auto -3rem;
+                    }
                     
                 }
 

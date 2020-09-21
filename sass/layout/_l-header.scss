@@ -80,7 +80,7 @@
 
             &.is-visible {
 
-                display: inline-block;
+                
 
 
             }
@@ -135,7 +135,7 @@
                     text-align: left;
                     position: inherit;
                     padding-top: 0;
-                    display: inline-block;
+                    
                     font-size: 18px;
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
