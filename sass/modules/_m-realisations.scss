@@ -129,6 +129,11 @@
       padding-left: 2.2rem;
       bottom: 13.5rem;
     }
+    .coverimage2middle {
+      position: relative;
+      left: 1.9rem;
+      bottom: 13rem;
+    }
 
   }
   /* version moyen mobile xxs 420px */
@@ -159,6 +164,7 @@
       width: 80%;
       padding-left: 5rem;
     }
+
 
   }
   /* version très petite tablette xx-s 530px */
@@ -357,8 +363,12 @@
       max-width: 100%;
       left: -1.1rem;
       top: -1rem;
-
-
+    }
+    .backimage2{
+      width: 100%;
+    }
+    .backimage2 > img {
+      margin-top: -0.6rem;
     }
 
   }
