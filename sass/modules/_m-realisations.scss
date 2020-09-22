@@ -55,18 +55,35 @@
     margin-top: 1.4rem;
     padding-top: 1.4rem;
   }
-
+  .backimage2 > img {
+    max-width: 100%;
+    margin-top: 1.4rem;
+    padding-top: 1.4rem
+  }
   .backimage-second img {
     position: relative;
     max-width: 100%;
     left: -1.4rem;
     top: -16rem;
   }
+  .backimage-second2left img {
+    position: relative;
+    max-width: 100%;
+    left: -2rem;
+    top: 8rem;
+}
 
   .coverimage {
     position: relative;
     left: -2.1rem;
     bottom: 17rem;
+    width: 84%;
+    padding-left: 5rem;
+  }
+  .coverimage2middle {
+    position: relative;
+    left: 2.9rem;
+    bottom: 10rem;
     width: 84%;
     padding-left: 5rem;
   }
@@ -89,9 +106,18 @@
     z-index:5;
   }
 
+
   .coverrelatif-second img {
     max-width: 30%;
   }
+  .coverrelatif-second2left img {
+    max-width: 55%;
+    position: relative;
+    left: 2rem;
+    top: -6rem;
+}
+
+
   /* version petit mobile xxxs 370px */
   @media screen and (min-width: break-point(xxxs)){
     .coverrelatif img{
@@ -163,6 +189,16 @@
     .coverimage-ter{
       left: 5.3rem;
       bottom: 26.5rem;
+    }
+    .coverimage-second2right {
+      position: absolute;
+    }
+    .coverrelatif-second2right {
+      position: relative;
+      left: -2.1rem;
+      bottom: -1.7rem;
+      border: 1px solid red;
+      width: 15%;
     }
 
     .coverrelatif-ter {
