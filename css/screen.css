@@ -3239,6 +3239,12 @@ footer .l-footer .section__footer--right .btn--footer {
 
   .item-22 {
     grid-column: 2/4;
+    margin-bottom: 4.5rem;
+  }
+
+  .item-23 {
+    grid-column: 4/6;
+    grid-row: 1/3;
   }
 
   .item-24 {
