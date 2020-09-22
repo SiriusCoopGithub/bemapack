@@ -136,16 +136,28 @@
     .title__primary2{
       font-size: 1.6rem;
     }
-
-
+    .coverrelatif2{
+      bottom: 2rem;
+    }
+    .coverrelatif2 img{
+      width: 125%;
+    }
     .coverimage{
       bottom: 21rem;
     }
     .coverimage-ter {
       width: 28%;
-      left: 9.7rem;
-      bottom: 19.3rem;
+      left: 1.9rem;
+      bottom: 15rem;
       padding-left: 0.8rem;
+    }
+
+    .coverimage2middle {
+      position: relative;
+      left: 1.9rem;
+      bottom: 15rem;
+      width: 80%;
+      padding-left: 5rem;
     }
 
   }
@@ -157,6 +169,25 @@
     .coverimage-ter{
       left: 12.7rem;
       bottom: 23.5rem;
+    }
+    .coverimage2middle {
+      left: 1.3rem;
+      bottom: 9rem;
+    }
+    .backimage-second2left{
+      width: 118%;
+    }
+
+    .backimage-second2left img {
+      position: relative;
+      max-width: 100%;
+      left: 0rem;
+      top: 16rem;
+    }
+    .coverrelatif-second2left img {
+      top: 9rem;
+    left: 1rem;
+    width: 75%;
     }
   }
 
