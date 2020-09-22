@@ -373,7 +373,7 @@
 
   }
 
-  /* PC portable lg 1024px */
+  /* petit PC portable lg 1024px */
   @media screen and (min-width: break-point(lg)){
     .coverrelatif {
       position: relative;
@@ -389,6 +389,7 @@
       //  border: 1px solid yellow;
     }
   }
+
   @media screen and (min-width: break-point(mlg)){
     .coverrelatif {
       left: 7.5rem;
