@@ -2790,6 +2790,9 @@ footer .l-footer .section__footer--right .btn--footer {
     width: 15%;*/
     display: none;
   }
+  .m-wrap.realisation .coverrelatif-second2right {
+    width: 70%;
+  }
   .m-wrap.realisation .coverrelatif-ter {
     position: absolute;
     left: 20.2rem;
