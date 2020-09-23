@@ -84,13 +84,11 @@
   .coverrelatif {
     padding-right: 0.8rem;
     width: 90%;
-    //border:1px solid blueviolet;
   }
   .coverrelatif img {
     width: 104%;
     z-index:5;
   }
-
 
   .coverrelatif-second img {
     max-width: 30%;
@@ -148,14 +146,11 @@
 
     .coverimage2middle {
       position: relative;
-      /* left: 1.9rem;
-      bottom: 15rem; */
       width: 80%;
       padding-left: 5rem;
       left: 3.9rem;
-    bottom: 17.7rem;
+      bottom: 17.7rem;
     }
-
 
   }
   /* version très petite tablette Surface Duo xx-s 530px */
@@ -169,7 +164,7 @@
     }
     .coverimage2middle {
       left: 1.3rem;
-      bottom: 9rem;
+      bottom: 12.5rem;
     }
     .backimage-second2left{
       width: 118%;
@@ -181,11 +176,18 @@
       left: 0rem;
       top: 16rem;
     }
+    .backimage2 {
+      width: 108%;
+    }
     .coverrelatif-second2left img {
       top: 9rem;
     left: 1rem;
     width: 75%;
     }
+    .coverrelatif2 > img{
+      width: 109%;
+    }
+
   }
 
 
@@ -206,8 +208,8 @@
       bottom: 12rem;
     }
     .coverimage2middle {
-    left: 1.9rem;
-    bottom: 11.7rem;
+      left: 1.6rem;
+      bottom: 12.8rem;
     }
 
     .coverrelatif {
@@ -229,7 +231,6 @@
       position: relative;
       left: -2.1rem;
       bottom: -1.7rem;
-      border: 1px solid red;
       width: 15%;
     }
 
@@ -237,7 +238,6 @@
     position: absolute;
     left: -0.4rem;
     bottom: -20.2rem;
-    /* border: 1px solid orange;*/
     }
 
     .coverimage-ter{
@@ -329,15 +329,14 @@
     }
 
     .coverrelatif-second {
-      /*position: relative;
-      left: -2.1rem;
-      bottom: -1.7rem;
-      border: 1px solid red;
-      width: 15%;*/
       display: none;
     }
+
     .coverrelatif-second2right {
-      width: 70%;
+      width: 48%;
+      left: 4.9rem;
+      bottom: -14.7rem;
+     // border: 1px solid red;
     }
 
 
@@ -363,11 +362,22 @@
       left: -1.1rem;
       top: 17rem;
     }
+    .backimage-second2right > img{
+      max-width: 88%;
+      margin-left: 3.1rem;
+      margin-top: 10rem;
+      padding-left: 0.5rem;
+    }
     .backimage2{
       width: 100%;
     }
     .backimage2 > img {
       margin-top: -0.6rem;
+    }
+    .coverrelatif-second2left img {
+      top: 20rem;
+      left: 1.3rem;
+      width: 56%;
     }
 
   }
@@ -392,12 +402,27 @@
       width: 90%;
     }
     .coverimage2middle {
-      bottom: 11.5rem;
-      width: 79%;
-      left: 0rem;
+      bottom: 14.8rem;
+      width: 77%;
+      left: 2.3rem;
     }
-
+    .backimage-second2right > img {
+      margin-top: 5rem;
+      margin-left: 4.1rem;
+    }
+  .coverrelatif-second2right {
+    left: 8.9rem;
   }
+  .backimage-second2left > img {
+    top: 20rem;
+    left: -2rem;
+  }
+  .coverrelatif-second2left img {
+    top: 8.1rem;
+    left: 1.8rem;
+  }
+
+}
   /* petit PC portable 1280px */
 
   @media screen and (min-width: break-point(mlg)){
@@ -405,6 +430,25 @@
       left: 7.5rem;
       bottom: -4.2rem
     }
+    .backimage-second {
+      padding-left: 0.8rem;
+      margin-left: 1.6rem;
+      margin-top: -13rem;
+    }
+    .coverimage2middle {
+      bottom: 18.8rem;
+      width: 75%;
+      left: 3.3rem;
+    }
+    .backimage-second2right > img {
+      margin-top: 6rem;
+      margin-left: 7.1rem;
+      max-width: 75%;
+    }
+    .coverrelatif-second2right {
+      left: 13.9rem;
+    }
+
   }
 
   /* PC portable xlg 1360px */
@@ -421,6 +465,16 @@
     .coverimage-ter{
       left: -9.7rem;
     }
+    .backimage-second {
+      padding-left: 0.8rem;
+      margin-left: 1.6rem;
+      margin-top: -8rem;
+    }
+    .coverrelatif-second2right {
+      left: 14.9rem;
+      bottom: -15.7rem;
+    }
+
   }
   /* PC portable xxlg 1420px */
   @media screen and (min-width: break-point(xxlg)){
@@ -433,6 +487,19 @@
     }
     .coverrelatif img {
       max-width: 58%;
+    }
+    .coverimage2middle {
+      bottom: 21.5rem;
+      width: 75%;
+      left: 3.3rem;
+    }
+    .backimage-second2right > img {
+      margin-top: 6rem;
+      margin-left: 11.1rem;
+      max-width: 71%;
+    }
+    .coverrelatif-second2right {
+      left: 18.9rem;
     }
 
   }
@@ -456,6 +523,48 @@
       bottom: -7.2rem;
       max-width: 93%;
     }
+    .coverrelatif2 > img {
+      width: 103%;
+    }
+    .coverimage2middle {
+      bottom: 26.5rem;
+      width: 75%;
+      left: 6.3rem;
+    }
+    .coverrelatif-second2right {
+      left: 21.9rem;
+      bottom: -20.7rem;
+      width: 57%
+    }
+    .coverrelatif-second2left img {
+      top: 3.1rem;
+      left: 1.8rem;
+      width: 78%;
+    }
+    .backimage-second2left > img {
+      top: 23rem;
+    }
+
   }
+  /* PC  xxtlg  2300px */
+  @media screen and (min-width: break-point(xxtlg)){
+    .coverimage2middle {
+      bottom: 31.5rem;
+      width: 75%;
+      left: 8.3rem;
+    }
+    .coverrelatif-second2right {
+      left: 23.9rem;
+      bottom: -26.7rem;
+      width: 65%;
+    }
+    .coverrelatif-second2left img {
+      top: 3.1rem;
+      left: 4.8rem;
+      width: 86%;
+    }
+
+  }
+
 
 }
