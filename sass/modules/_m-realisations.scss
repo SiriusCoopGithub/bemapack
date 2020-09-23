@@ -375,6 +375,10 @@
 
   /* petit PC portable lg 1024px */
   @media screen and (min-width: break-point(lg)){
+    .backimage2 {
+      width: 90%;
+    }
+
     .coverrelatif {
       position: relative;
       left: 6.5rem;

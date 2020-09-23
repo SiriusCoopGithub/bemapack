@@ -2823,6 +2823,9 @@ footer .l-footer .section__footer--right .btn--footer {
   }
 }
 @media screen and (min-width: 1024px) {
+  .m-wrap.realisation .backimage2 {
+    width: 90%;
+  }
   .m-wrap.realisation .coverrelatif {
     position: relative;
     left: 6.5rem;
