@@ -1,27 +1,19 @@
-/* ICI commence le scss de _m-realisations */
+/*  -----------------  ICI commence le scss de _m-realisations ------------ */
+
 .m-wrap.realisation{
   width: 95%;
   margin: auto;
+
   p{
     color: color(primary);
     font-size: 20px;
     width: 100%;
     line-height: 2rem;
   }
-  /*.green{
-    border: 3px dashed yellowgreen;
-  }
-  */
-/*
-  .lime {
-    margin: 1.2rem;
-    //border: 4px dashed lime;
-  }
-  */
+
   .title__primary2 {
     font-style: italic;
     margin:3rem auto 1rem auto;
-
     color: map-get($colors,primary);
     width: 100%;
     font-size: 1.4rem; //30px
@@ -29,24 +21,14 @@
     span{
     border-bottom: solid 3px map-get($colors , primaryGreen);
     color: map-get($colors, primary);
-
     }
-  }
 
-  /*
-  .yellow{
-    background-color: rgb(252,255,164);
   }
-  .bordure {
-    border: 1px dotted red;
-  }
-  */
 
   span {
     text-transform: capitalize;
     font-weight: 800;
   }
-
   .backimage {
     padding-left: 0.6rem;
   }
@@ -55,9 +37,12 @@
     margin-top: 1.4rem;
     padding-top: 1.4rem;
   }
+  .backimage2{
+    width: 100%;
+  }
   .backimage2 > img {
     max-width: 100%;
-    margin-top: 1.4rem;
+    margin-top: 2.1rem;
     padding-top: 1.4rem
   }
   .backimage-second img {
@@ -82,8 +67,8 @@
   }
   .coverimage2middle {
     position: relative;
-    left: 2.9rem;
-    bottom: 10rem;
+    left: 2.4rem;
+    bottom: 13rem;
     width: 84%;
     padding-left: 5rem;
   }
@@ -131,11 +116,15 @@
     }
     .coverimage2middle {
       position: relative;
-      left: 1.9rem;
-      bottom: 13rem;
+      left: 2.9rem;
+      bottom: 15.5rem;
+    }
+    .coverrelatif2 > img{
+      width: 95%;
     }
 
   }
+
   /* version moyen mobile xxs 420px */
   @media screen and (min-width: break-point (xxs)){
     .title__primary2{
@@ -159,15 +148,17 @@
 
     .coverimage2middle {
       position: relative;
-      left: 1.9rem;
-      bottom: 15rem;
+      /* left: 1.9rem;
+      bottom: 15rem; */
       width: 80%;
       padding-left: 5rem;
+      left: 3.9rem;
+    bottom: 17.7rem;
     }
 
 
   }
-  /* version très petite tablette xx-s 530px */
+  /* version très petite tablette Surface Duo xx-s 530px */
   @media screen and (min-width: break-point(xx-s)){
     .coverimage{
       bottom: 25rem;
@@ -213,6 +204,10 @@
     }
     .coverimage{
       bottom: 12rem;
+    }
+    .coverimage2middle {
+    left: 1.9rem;
+    bottom: 11.7rem;
     }
 
     .coverrelatif {
@@ -281,7 +276,7 @@
       width: 90%;
     }
 
-    .backimage>img {
+    .backimage > img {
       left: -7.2rem;
       max-width: 59%;
       top: -1.8rem;
@@ -291,7 +286,7 @@
       margin-top: 9.4rem;
     }
     .coverimage2middle {
-      bottom: 10.5rem;
+      bottom: 13rem;
     }
     .backimage-second2left > img {
       top: 29rem;
@@ -300,9 +295,10 @@
       top: 20rem;
       left: 1.3rem;
       width: 72%;
-  }
+    }
 
   }
+
 
   /* petit PC portable md-plus 799px */
   @media screen and (min-width: break-point(md-plus)){
@@ -359,10 +355,10 @@
       margin-left: 1.6rem;
       margin-top: -8rem;
     }
-    .backimage-second img {
+    .backimage-second > img {
       max-width: 100%;
       left: -1.1rem;
-      top: -1rem;
+      top: 17rem;
     }
     .backimage2{
       width: 100%;
@@ -375,9 +371,6 @@
 
   /* petit PC portable lg 1024px */
   @media screen and (min-width: break-point(lg)){
-    .backimage2 {
-      width: 90%;
-    }
 
     .coverrelatif {
       position: relative;
@@ -392,8 +385,17 @@
         max-width: 100%;
       //  border: 1px solid yellow;
     }
+    .backimage2 {
+      width: 90%;
+    }
+    .coverimage2middle {
+      bottom: 11.5rem;
+      width: 79%;
+      left: 0rem;
+    }
 
   }
+  /* petit PC portable 1280px */
 
   @media screen and (min-width: break-point(mlg)){
     .coverrelatif {
