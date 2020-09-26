@@ -190,23 +190,46 @@
       left: 1.3rem;
       bottom: 12.5rem;
     }
+    .coverimage3middle {
+      position: relative;
+      left: -0.6rem;
+      bottom: 19rem;
+      width: 89%;
+      padding-left: 6rem;
+    }
+
     .backimage-second2left{
       width: 118%;
     }
-
     .backimage-second2left img {
       position: relative;
       max-width: 100%;
       left: 0rem;
       top: 16rem;
     }
+    .backimage-second3left img {
+      position: relative;
+      max-width: 98%;
+      left: -0.9rem;
+      top: 0rem;
+    }
     .backimage2 {
       width: 108%;
     }
+    .backimage3 {
+      width: 70%;
+    }
+
     .coverrelatif-second2left img {
       top: 9rem;
     left: 1rem;
     width: 75%;
+    }
+    .coverrelatif-second3left img {
+      max-width: 96%;
+      position: relative;
+      left: 0rem;
+      top: -7rem;
     }
     .coverrelatif2 > img{
       width: 109%;
