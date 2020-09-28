@@ -408,16 +408,16 @@
                     
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    margin:-18rem auto auto auto;
+                    margin:-15rem auto auto auto;
                 }
                 @media screen and (min-width: map-get($break-point, mlg)) {
-                    margin:-20rem auto auto auto;
+                    margin:-16rem auto auto auto;
                 }
                 @media screen and (min-width: map-get($break-point, xlg)) {
-                    margin:-22rem auto auto auto;
+                    margin:-18rem auto auto auto;
                 }
                 @media screen and (min-width: map-get($break-point, xxlg)) {
-                    margin:-24rem auto auto auto;
+                    margin:-19rem auto auto auto;
                 }
                 @media screen and (min-width: map-get($break-point, xtlg)) {
                     margin:-30rem auto auto auto;
@@ -442,7 +442,7 @@
                         
                     }
                     @media screen and (min-width: map-get($break-point, md)) {
-                        width: 7rem;
+                        width: 6rem;
                         margin:-5rem auto auto  auto;
                         &:hover{
                             border:1px solid map-get($colors,primary );
@@ -452,7 +452,7 @@
                         }
                     }
                     @media screen and (min-width: map-get($break-point, lg)) {
-                        width: 12rem;
+                        width: 9rem;
                         margin:-6rem auto 3rem auto;
                         padding:1.5rem;
                         

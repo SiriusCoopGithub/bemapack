@@ -1925,25 +1925,25 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 1024px) {
   /* line 397, ../sass/modules/_m-home.scss */
   .section__logo .content__logo {
-    margin: -18rem auto auto auto;
+    margin: -15rem auto auto auto;
   }
 }
 @media screen and (min-width: 1280px) {
   /* line 397, ../sass/modules/_m-home.scss */
   .section__logo .content__logo {
-    margin: -20rem auto auto auto;
+    margin: -16rem auto auto auto;
   }
 }
 @media screen and (min-width: 1360px) {
   /* line 397, ../sass/modules/_m-home.scss */
   .section__logo .content__logo {
-    margin: -22rem auto auto auto;
+    margin: -18rem auto auto auto;
   }
 }
 @media screen and (min-width: 1420px) {
   /* line 397, ../sass/modules/_m-home.scss */
   .section__logo .content__logo {
-    margin: -24rem auto auto auto;
+    margin: -19rem auto auto auto;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1975,7 +1975,7 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 740px) {
   /* line 429, ../sass/modules/_m-home.scss */
   .section__logo .content__logo .logo__partners {
-    width: 7rem;
+    width: 6rem;
     margin: -5rem auto auto  auto;
   }
   /* line 447, ../sass/modules/_m-home.scss */
@@ -1988,7 +1988,7 @@ footer .l-footer .section__footer--right .btn--footer {
 @media screen and (min-width: 1024px) {
   /* line 429, ../sass/modules/_m-home.scss */
   .section__logo .content__logo .logo__partners {
-    width: 12rem;
+    width: 9rem;
     margin: -6rem auto 3rem auto;
     padding: 1.5rem;
   }
