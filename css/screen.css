@@ -190,7 +190,7 @@ a:hover {
 @media screen and (min-width: 1280px) {
   /* line 30, ../sass/layout/_l-banner.scss */
   .l-section__banner .l-banner .l-banner-img {
-    max-width: 1048px;
+    max-width: 1055px;
   }
 }
 @media screen and (min-width: 1360px) {
