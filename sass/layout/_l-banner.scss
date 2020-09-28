@@ -42,7 +42,7 @@
                         @media screen and (min-width: map-get($break-point, md)) {
                             margin-top: 0;
                             margin-left: 0;
-                            max-width: 600px;
+                            max-width: 573px;
                             display:block;
                             
                         }
@@ -53,11 +53,11 @@
                         }
                         @media screen and (min-width: map-get($break-point, mlg)) {
                             
-                            max-width: 1060px;
+                            max-width: 1048px;
                         }
                         @media screen and (min-width: map-get($break-point, xlg)) {
                             
-                            max-width: 1190px;
+                            max-width: 1192px;
                         }
                         @media screen and (min-width: map-get($break-point, xxlg)) {
                             
@@ -65,7 +65,7 @@
                         }
                         @media screen and (min-width: map-get($break-point, xtlg)) {
                             
-                            max-width: 1640px;
+                            max-width: 1650px;
                         }
                     
                     } 

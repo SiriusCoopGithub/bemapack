@@ -137,24 +137,24 @@
                     padding-top: 0rem;
                     display: block;
                     font-size: 18px;
-                    margin-left: 2.5rem;
+                    
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    margin-left: 2.5rem;
+                    
                     text-align: right;
 
                 }
                 @media screen and (min-width: map-get($break-point, mlg)) {
-                    margin-right: 0.2rem;
+                    
 
                 }
                 @media screen and (min-width: map-get($break-point, xxlg)) {
-                    margin-right: 2.2rem;
+                    
                 }
 
                 @media screen and (min-width: map-get($break-point, xtlg)) {
-
-                    margin-right: 3rem;
+                    margin-right:3rem;
+                    
                 }
 
             }
@@ -190,13 +190,13 @@
                 text-align: center;
                 color: map-get($colors,main);
                 font-size: 25px;
-                padding:auto 2rem auto 2rem;
+                
 
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     color: map-get($colors,main);
-                    
-                    margin:auto 1rem auto 1.5rem;
+                    margin:auto 1rem auto 1rem;
+                
 
 
                 &:hover, &.is-active {
@@ -212,7 +212,7 @@
                 @media screen and (min-width: map-get($break-point, lg)) {
                     color: map-get($colors,main);
                     
-                    margin:auto 2rem auto 1.2rem;
+                    margin:auto 2rem auto 2rem;
 
 
                 &:hover, &.is-active {
@@ -243,7 +243,7 @@
                 }
                 @media screen and (min-width: map-get($break-point, xtlg)) {
                     color: map-get($colors,main);
-                    
+                    font-size: 28px;
                     margin:auto 2rem auto 2rem;
 
 

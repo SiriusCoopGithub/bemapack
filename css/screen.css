@@ -176,7 +176,7 @@ a:hover {
   .l-section__banner .l-banner .l-banner-img {
     margin-top: 0;
     margin-left: 0;
-    max-width: 600px;
+    max-width: 573px;
     display: block;
   }
 }
@@ -190,13 +190,13 @@ a:hover {
 @media screen and (min-width: 1280px) {
   /* line 30, ../sass/layout/_l-banner.scss */
   .l-section__banner .l-banner .l-banner-img {
-    max-width: 1060px;
+    max-width: 1048px;
   }
 }
 @media screen and (min-width: 1360px) {
   /* line 30, ../sass/layout/_l-banner.scss */
   .l-section__banner .l-banner .l-banner-img {
-    max-width: 1190px;
+    max-width: 1192px;
   }
 }
 @media screen and (min-width: 1420px) {
@@ -208,7 +208,7 @@ a:hover {
 @media screen and (min-width: 1920px) {
   /* line 30, ../sass/layout/_l-banner.scss */
   .l-section__banner .l-banner .l-banner-img {
-    max-width: 1640px;
+    max-width: 1650px;
   }
 }
 /* line 73, ../sass/layout/_l-banner.scss */
@@ -1147,26 +1147,12 @@ a:hover {
     padding-top: 0rem;
     display: block;
     font-size: 18px;
-    margin-left: 2.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
   /* line 121, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav ul {
-    margin-left: 2.5rem;
     text-align: right;
-  }
-}
-@media screen and (min-width: 1280px) {
-  /* line 121, ../sass/layout/_l-header.scss */
-  .l-header .l-nav__main.l-menu nav ul {
-    margin-right: 0.2rem;
-  }
-}
-@media screen and (min-width: 1420px) {
-  /* line 121, ../sass/layout/_l-header.scss */
-  .l-header .l-nav__main.l-menu nav ul {
-    margin-right: 2.2rem;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1205,13 +1191,12 @@ a:hover {
   text-align: center;
   color: white;
   font-size: 25px;
-  padding: auto 2rem auto 2rem;
 }
 @media screen and (min-width: 740px) {
   /* line 186, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav a {
     color: white;
-    margin: auto 1rem auto 1.5rem;
+    margin: auto 1rem auto 1rem;
   }
   /* line 202, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav a:hover, .l-header .l-nav__main.l-menu nav a.is-active {
@@ -1226,7 +1211,7 @@ a:hover {
   /* line 186, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav a {
     color: white;
-    margin: auto 2rem auto 1.2rem;
+    margin: auto 2rem auto 2rem;
   }
   /* line 218, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav a:hover, .l-header .l-nav__main.l-menu nav a.is-active {
@@ -1256,6 +1241,7 @@ a:hover {
   /* line 186, ../sass/layout/_l-header.scss */
   .l-header .l-nav__main.l-menu nav a {
     color: white;
+    font-size: 28px;
     margin: auto 2rem auto 2rem;
   }
   /* line 250, ../sass/layout/_l-header.scss */
