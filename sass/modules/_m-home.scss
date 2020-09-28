@@ -468,9 +468,14 @@
                     @media screen and (min-width: map-get($break-point, xtlg)) {
                         width: 16rem;
                         margin:-10rem auto 3rem auto;
-                        padding:2rem;
+                        padding:3rem;
                         
-                        
+                        &:hover{
+                            border:2px solid map-get($colors,primary );
+                            border-radius: 15px;
+                            transform: scale(1.5); 
+                            
+                        }
                     }
                     &:hover{
                         border:2px solid map-get($colors,primary );
