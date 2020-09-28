@@ -124,6 +124,7 @@
                 padding-top: 4rem;
                 width: 100%;
                 text-align: center;
+                padding-left: 0;
                 
 
 
@@ -136,9 +137,10 @@
                     padding-top: 0rem;
                     display: block;
                     font-size: 18px;
+                    margin-left: 2.5rem;
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-
+                    margin-left: 2.5rem;
                     text-align: right;
 
                 }
@@ -152,7 +154,7 @@
 
                 @media screen and (min-width: map-get($break-point, xtlg)) {
 
-                    margin-right: 4rem;
+                    margin-right: 3rem;
                 }
 
             }
@@ -160,19 +162,24 @@
                 position: relative;
                 display: block;
                 margin-top: 3rem;
-                padding-right: 2rem;
+                
+                
+
                 
 
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: inline-block;
-                    margin:auto 0rem auto 0rem;
+                    margin:auto;
 
                     &:hover {
                         transform: scale(.9);
                     }
                 }
-
+                @media screen and (min-width: map-get($break-point, md)) {
+                    display: inline-block;
+                    margin:auto;
+                }
 
 
             }
@@ -183,13 +190,13 @@
                 text-align: center;
                 color: map-get($colors,main);
                 font-size: 25px;
-
+                padding:auto 2rem auto 2rem;
 
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     color: map-get($colors,main);
                     
-                    margin:auto auto auto 1rem;
+                    margin:auto 1rem auto 1.5rem;
 
 
                 &:hover, &.is-active {
@@ -202,8 +209,54 @@
 
                 }
                 }
+                @media screen and (min-width: map-get($break-point, lg)) {
+                    color: map-get($colors,main);
+                    
+                    margin:auto 2rem auto 1.2rem;
 
 
+                &:hover, &.is-active {
+                    right: 0;
+                }
+
+
+                &.blue-contact{
+                    color: map-get($colors,primaryGreen);
+
+                }
+                }
+                @media screen and (min-width: map-get($break-point, xlg)) {
+                    color: map-get($colors,main);
+                    
+                    margin:auto 2rem auto 3rem;
+
+
+                &:hover, &.is-active {
+                    right: 0;
+                }
+
+
+                &.blue-contact{
+                    color: map-get($colors,primaryGreen);
+
+                }
+                }
+                @media screen and (min-width: map-get($break-point, xtlg)) {
+                    color: map-get($colors,main);
+                    
+                    margin:auto 2rem auto 2rem;
+
+
+                &:hover, &.is-active {
+                    right: 0;
+                }
+
+
+                &.blue-contact{
+                    color: map-get($colors,primaryGreen);
+
+                }
+                }
             }
 
         @media screen and (min-width: map-get($break-point, md)) {
