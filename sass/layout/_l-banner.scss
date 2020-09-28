@@ -114,8 +114,8 @@
                                     
                                 }
                                 @media screen and (min-width: map-get($break-point, xxlg)) {
-                                    width: 43rem;
-                                    margin:3rem 0rem auto 44rem;
+                                    width: 45rem;
+                                    margin:5rem 0rem auto 44rem;
                                     
                                 }
                                 @media screen and (min-width: map-get($break-point, xtlg)) {
@@ -340,7 +340,7 @@
                             
                         }
                         @media screen and (min-width: map-get($break-point,xxlg)) {
-                            margin: -16.2rem auto auto 5rem;
+                            margin: -14.2rem auto auto 5rem;
                             width: 45%;
                             font-size: 22px;
                         }
@@ -468,7 +468,7 @@
                                 }
                                 @media screen and (min-width: map-get($break-point, xxlg)) {
                                     width: 43rem;
-                                    margin:3rem 0rem auto 44rem;
+                                    margin:5rem 0rem auto 44rem;
                                     
                                 }
                                 @media screen and (min-width: map-get($break-point, xtlg)) {
@@ -601,8 +601,8 @@
                         padding-bottom: 2rem;
 
                         @media screen and (min-width: map-get($break-point, md)) {
-                            margin:-9.5rem auto auto 9rem;
-                            width: 8rem;
+                            margin:-7.5rem auto auto 9rem;
+                            width: 6rem;
                         }
 
                         @media screen and (min-width: map-get($break-point, lg)) {
@@ -628,11 +628,12 @@
                         width: 15rem;
 
                             @media screen and (min-width: map-get($break-point, md)) {
-                                display: none;
+                                margin:1rem 1rem auto 2rem;
+                                display: block;
                                 font-size: 14px;
                             }
                             @media screen and (min-width: map-get($break-point, md-plus)) {
-                                display: none;
+                                display: block;
                                 font-size: 14px;
                             }
                             @media screen and (min-width: map-get($break-point, lg)) {
@@ -670,15 +671,14 @@
 
                         @media screen and (min-width: map-get($break-point, md)) {
                             
-                            margin: -8.2rem 1rem auto 5rem;
+                            margin: -7.2rem auto auto 0rem;
                             color: white;
-                            
-                            width: 48%;
+                            width: 60%;
                             
                             
                             p{
                                 display:flex;
-                                font-size: 16px;
+                                font-size: 14px;
                                 padding-left:0.5rem;
                                 ::before  {
                                     content: ">";
@@ -690,6 +690,8 @@
                             
                         }
                 
+                        
+
                         @media screen and (min-width: map-get($break-point, lg)) {
                             margin: -11.2rem auto auto 9rem;
                             width: 40%;
@@ -706,7 +708,7 @@
                             
                         }
                         @media screen and (min-width: map-get($break-point,xxlg)) {
-                            margin: -16.2rem auto auto 5rem;
+                            margin: -14.2rem auto auto 5rem;
                             width: 45%;
                             font-size: 22px;
                         }

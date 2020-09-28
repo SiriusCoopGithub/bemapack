@@ -108,8 +108,7 @@
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     text-align: left;
-                    margin-left: auto;
-                    margin-right: auto;
+                    
                 }
 
                 @media screen and (min-width: map-get($break-point, lg)) {
@@ -125,6 +124,7 @@
                 padding-top: 4rem;
                 width: 100%;
                 text-align: center;
+                
 
 
                 @media screen and (min-width: map-get($break-point, md)) {
@@ -142,6 +142,10 @@
                     text-align: right;
 
                 }
+                @media screen and (min-width: map-get($break-point, mlg)) {
+                    margin-right: 0.2rem;
+
+                }
                 @media screen and (min-width: map-get($break-point, xxlg)) {
                     margin-right: 2.2rem;
                 }
@@ -156,8 +160,8 @@
                 position: relative;
                 display: block;
                 margin-top: 3rem;
-                padding-right: 1rem;
-                padding-left: 1rem;
+                padding-right: 2rem;
+                
 
 
                 @media screen and (min-width: map-get($break-point, md)) {
@@ -184,7 +188,7 @@
 
                 @media screen and (min-width: map-get($break-point, md)) {
                     color: map-get($colors,main);
-                    padding: 0.2rem 0.5rem;
+                    
                     margin:auto auto auto 1rem;
 
 
@@ -201,9 +205,6 @@
 
 
             }
-
-
-
 
         @media screen and (min-width: map-get($break-point, md)) {
             a.hover{
