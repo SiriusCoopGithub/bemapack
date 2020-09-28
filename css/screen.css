@@ -3428,7 +3428,7 @@ footer .l-footer .section__footer--right .btn--footer {
 /* grande TABLETTE md  740px */
 @media screen and (min-width: 740px) {
   .m-wrap.realisation {
-    width: 80%;
+    width: 85%;
   }
 
   .item-1 {
