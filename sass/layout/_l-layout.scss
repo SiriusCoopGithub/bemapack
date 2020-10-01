@@ -14,3 +14,18 @@
         
     }
 }
+.l-wrapper-contact {
+    display: grid;
+    grid-template-columns:  0.38fr 1fr 0.3fr ;
+    grid-template-rows:  0.5fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+    "l-section__banner l-section__banner  .  "
+    " l-img l-img l-img";
+
+    @media screen and (min-width: map-get($break-point, md)) {
+        grid-template-areas:
+        "l-section__banner l-section__banner  . ";
+        
+    }
+}

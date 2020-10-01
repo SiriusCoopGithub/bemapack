@@ -1,253 +1,70 @@
 /********************wrapper********************/
-
+.l-wrapper-contact{
     /********************section contact********************/
-    .section__contact{
-        height: auto;
-        background-color:map-get($colors , primary ) ;
+    .header__map{
+        display:block;
+        border-top-left-radius: 25px;
+        
+
 
         @media screen and (min-width: map-get($break-point, md)) {
-            background-color:white;
+
         }
-
-        .bg__banner{
-            display: none;
-
-            @media screen and (min-width: map-get($break-point, md)) {
-
-            }
-            @media screen and (min-width: map-get($break-point, lg)) {
-                
-            }
-        }
-        .header__map{
-            display: none;
-
-            @media screen and (min-width: map-get($break-point, md)) {
-                margin: -29rem auto auto 25rem;
-                float: right;
-                display: flex;
-                justify-content: space-between;
-                z-index:998;
-                width: 50%;
-                height: auto;
-                position: absolute;
-            }
-            
-            @media screen and (min-width: map-get($break-point, lg)) {
-                margin: -40rem auto auto 38rem;
-                float: right;
-                display: flex;
-                justify-content: space-between;
-                z-index:998;
-                width: 50%;
-                height: 80%;
-                position: absolute;
-            }
+        
+        @media screen and (min-width: map-get($break-point, lg)) {
             
         }
-        .header__mobile{
-            margin-top: 3rem;
-            z-index: 0;
-            height: auto;
-            @media screen and (min-width: map-get($break-point, md)) {
-                display:none;
-            }
-        }
-        .l-logo__sm{
-            margin-top:-4rem;
-            display:block;
-            position: absolute;
-            width: 50%;
-
-            @media screen and (min-width: map-get($break-point, md)) {
-                display:none;
-            }
-        }
-
-        .l-logo__lg{
-            
-            display:block;
-            position: absolute;
-            width: 50%;
-            margin-top: -7rem;
-            margin-left:2rem;
-
-            @media screen and (min-width: map-get($break-point, md)) {
-                display:block;
-                position: absolute;
-                width: 17%;
-                margin: -28rem auto auto 6rem;
-            }
-            @media screen and (min-width: map-get($break-point, lg)) {
-                margin: -47.5rem auto auto 6rem;
-                position: fixed;
-                z-index: 999;
-            }
-
-
-
-        }
-        .point__contact{
+        
+    }
+    .l-logo-lg-rea{
+        display: none;
+        
+        @media screen and (min-width: map-get($break-point, md)) {
             display: none;
-
-            @media screen and (min-width: map-get($break-point, md)) {
-                display:block;
-                position: absolute;
-                width: 20%;
-                margin: -15rem auto auto 14rem;
-            }
-
-            @media screen and (min-width: map-get($break-point, lg)) {
-                width: 15%;
-                margin: -15rem auto auto 24rem;
-                z-index: 999;
-            }
+            
         }
-        .description{
+        
+        @media screen and (min-width: map-get($break-point, lg)) {
             display: block;
-                
+            width: 15rem;
+            margin-top: -45.2rem;
+            margin-left: 6rem;
+            z-index: 999;
+        }
+    }
+    .description{
+        display: block;
+            
+        position: absolute;
+        margin: 7rem auto auto 6.5rem;
+        color: white;
+        padding-bottom: 2rem;
+        z-index: 997;
+
+        .title{
+    
+        }
+        .detail{
+            display: block;
             position: absolute;
-            margin: 30rem auto auto auto;
+            text-align: left;
+            margin: 10rem auto auto 0;
             color: white;
             padding-bottom: 2rem;
-            z-index: 1000;
-            .title{
-
-            }
-            .detail{
+    
+    
+            @media screen and (min-width: map-get($break-point, md)) {
                 display: block;
-                justify-content: center;
-                text-align: center;
-                position: relative;
-                margin: auto auto auto auto;
+            
+                text-align: left;
+                margin: 10rem auto auto 0;
                 color: white;
                 padding-bottom: 2rem;
-
-
-                @media screen and (min-width: map-get($break-point, md)) {
-                    display: flex;
-                    justify-content: left;
-                    margin: -9rem auto auto 8rem;
-                    color: white;
-                }
-
-                @media screen and (min-width: map-get($break-point, lg)) {
-                    margin: -8rem auto auto 10rem;
-                }
             }
-
-
-
-
-
-                /********************contact presentation********************/
-                .wrap__page--contact{
-
-                    .title__page--contact{
-                    
-                    }
-
-                    p.message{
-                    
-                    line-height: 1.7rem;
-                    color:black;
-                    margin-bottom: 5rem;
-                    text-align: justify;
-                    margin:1rem;
-                    
-                    
-                    input.checkbox {
-                        text-align: justify;
-                        margin-right: 1rem;
-                    }
-                
-                    }
-                
-                
-                    .formulaire {
-                    width: 80%;
-                    height: auto;
-                    border-radius: 5px;
-                    margin-left: 1rem;
-                    margin-right: 0;
-                    padding: 0.5rem 0rem 0rem 0rem;
-                    margin: 1rem auto 1rem auto; 
-                    position: relative;
-                    
-                    
-                    input[type=text], input[type=tel], input[type=email] {
-                    display: inline-block;
-                    border: o;
-                    border-radius: 4px;
-                    background-color: white;
-                    font-size: 1rem;
-                    color: black;
-                    width: 100%;
-                    height: 3rem;
-                    box-sizing: border-box;
-                    margin-bottom: 1rem;
-                    text-align: left; 
-                    padding:5px;
-                    }
-                    
-                    input[placeholder=""] {
-                    background-color: antiquewhite; 
-                    
-                    }
-                    
-                    textarea {
-                    box-sizing: border-box;
-                    width: 100%;
-                    height: 200px;
-                    margin-top: 8px;
-                    margin-bottom: 40px;
-                    padding: 12px;
-                    border-radius: 8px;
-                    resize: vertical, horizontal; 
-                    }
-                    #message-confirmation {
-                    font-size: 1rem;
-                    color: map-get($colors , link); 
-                    margin-top: 2rem;
-                    text-align: center;
-                    }
-
-                }
-                
-                .btn.btn__contact{
-                    
-                    display: block;
-                    margin-top: 1rem;
-                    text-align: center;
-                    max-width: auto;
-                    
-                    
-                    @media screen and (min-width: map-get($break-point, md)) {
-                        margin:0;
-                        margin-right: 5rem;
-                        padding:auto 2rem auto 1rem;
-                        width: auto;
-                    }
-                    @media screen and (min-width: map-get($break-point, lg)) {
-                        padding:auto 2rem auto 1rem;
-                        width: 15rem;
-                        margin:  auto;
-                        float: left;
-                    }
-                    
-                }
-
+    
+            @media screen and (min-width: map-get($break-point, lg)) {
+                margin: -8rem auto auto 10rem;
             }
-
-
-
-
-
-
-
-
-
         }
-
-}
-
+    }
+   }

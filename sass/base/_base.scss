@@ -94,15 +94,15 @@ p{
     font-weight: bold;
     justify-content: center;
     margin-top: 2rem;
+    
+    
+
 
     @media screen and (min-width: map-get($break-point, mlg)) {
 
         font-size: 22px;
     }
-    @media screen and (min-width: map-get($break-point, xxlg)) {
 
-
-    }
 
 
         &:hover{
@@ -117,8 +117,15 @@ p{
         justify-content: space-between;
         width: 13%;
         height: 4%;
-        margin:-1.7rem 1rem auto 15rem;
+        margin:-1.7rem 1rem auto 14rem;
+        
 
+        @media screen and (min-width: map-get($break-point, xxxs)) {
+            
+            margin:-1.7rem 1rem auto 16rem;
+            
+
+        }
 
     }
 

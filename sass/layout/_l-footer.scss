@@ -28,8 +28,8 @@ footer{
                 padding-top: -2rem;
                 padding-bottom: 2rem;
 
-                @media screen and (min-width: map-get($break-point, lg)) {
-                    
+                @media screen and (min-width: map-get($break-point, md)) {
+                    margin-top: 3rem;
                     
                 }
             }
@@ -98,8 +98,15 @@ footer{
                     margin-top: 2rem;
                 }
                 
+                @media screen and (min-width: map-get($break-point, md)) {
+                    max-width: 40%;
+                    margin-left: 26rem;
+                    margin-top: -28rem;
+                }
                 @media screen and (min-width: map-get($break-point, lg)) {
                     max-width: 40%;
+                    margin:inherit;
+                    margin-top: 0;
                 }
                 
                 
@@ -114,9 +121,13 @@ footer{
                 
                 .btn--footer{
                     float: left;
-                    margin: 2rem auto auto 0;
+                    margin: 2rem 1rem auto 0;
+
+                    @media screen and (min-width: map-get($break-point, md)) {
+                        margin: 3rem auto auto 0rem;
+                    }
                     @media screen and (min-width: map-get($break-point, lg)) {
-                        margin: 2rem auto auto -3rem;
+                        margin: 3rem auto auto 0rem;
                     }
                     
                 }
