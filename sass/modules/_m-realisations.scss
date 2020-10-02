@@ -1,7 +1,7 @@
 /*  -----------------  ICI commence le scss de _m-realisations ------------ */
 
 .m-wrap.realisation{
-  width: 95%;
+  width: 94%;
   margin: auto;
   border: 1px solid green;
 
@@ -30,9 +30,11 @@
     text-transform: capitalize;
     font-weight: 800;
   }
-
   .bordure{
     border: 2px dotted darkorchid;
+  }
+  .grid-containerAmoi3{
+    background-color: aliceblue;
   }
   .backimage {
     padding-left: 0.6rem;
@@ -72,7 +74,7 @@
   width: 70%;
 }
 .backimage3 > img{
-  width: 40%;
+  width: 88%;
 }
 
   .coverimage {
@@ -84,9 +86,9 @@
   }
   .coverimage2middle {
     position: relative;
-    left: 2.4rem;
+    left: 1.4rem;
     bottom: 13rem;
-    width: 84%;
+    width: 65%;
     padding-left: 5rem;
   }
   .coverimage3middle {
@@ -109,11 +111,22 @@
     padding-right: 0.8rem;
     width: 90%;
   }
+  .coverrelatif-ter {
+    width: 60%;
+  }
+  .coverrelatif-ter > img{
+    width: 145%;
+
+  }
   .coverrelatif img {
     width: 104%;
     z-index:5;
   }
-
+  .coverrelatif2 >img{
+    width: 190%;
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
   .coverrelatif-second img {
     max-width: 30%;
   }
@@ -625,26 +638,26 @@
 
    /********************section realisations********************/
    .section__realisation--page_rea{
-        
+
     margin:auto;
     display: block;
     margin-top: 5rem;
     width: 100%;
     padding:1rem;
-    
+
     @media screen and (min-width: map-get($break-point, md)) {
         height: auto;
         margin-top: 2rem;
         padding-top: 6rem;
         margin-bottom: 2rem;
-        
-        
+
+
     }
     @media screen and (min-width: map-get($break-point, lg)) {
         height: auto;
         margin-top: 4rem;
         padding-top: 6rem
-        
+
     }
     @media screen and (min-width: map-get($break-point, xxlg)) {
         background: none;
@@ -652,34 +665,34 @@
         width: 100%;
         margin-top: 9rem;
         padding-top: 8rem;
-        
-        
+
+
     }
     @media screen and (min-width: map-get($break-point, xxlg)) {
-        
+
         margin-top: 12rem;
         margin-bottom: 3rem;
-        
-        
+
+
     }
     @media screen and (min-width: map-get($break-point, xtlg)) {
-        
+
         padding-bottom: 5rem;
         margin-top: 0rem;
         padding-top: 0rem;
-        
-        
+
+
     }
 
     .cadre__detail{
         display: flex;
         justify-content: space-around;
         padding-bottom: 2rem;
-        
+
         @media screen and (min-width: map-get($break-point, md)) {
-            
+
             margin-left:-2rem;
-            
+
         }
         @media screen and (min-width: map-get($break-point, lg)) {
             display: grid;
@@ -687,7 +700,7 @@
             grid-row: 1;
             width: auto;
             margin-left:-2rem;
-            
+
         }
             .title__primary {
                 font-style: italic;
@@ -696,15 +709,15 @@
                 color: map-get($colors,primary );
                 width: 100%;
                 font-size: 30px;
-    
-    
+
+
                 span{
                 border-bottom: solid 3px map-get($colors , primaryGreen);
-                color: map-get($colors,primary ); 
+                color: map-get($colors,primary );
                 font-weight: bold;
                 font-style: bold;
                 }
-    
+
             @media screen and (min-width: map-get($break-point, md)) {
                 margin:1rem auto -4rem auto;
                 font-size: 30px;
@@ -719,39 +732,39 @@
             }
             @media screen and (min-width: map-get($break-point, mlg)) {
                 margin:-3rem auto 2rem -32rem;
-                
+
             }
             @media screen and (min-width: map-get($break-point, xlg)) {
                 margin:-3rem auto 2rem -35rem;
-                
+
             }
             @media screen and (min-width: map-get($break-point, xxlg)) {
                 margin:-3rem auto 2rem -38rem;
-                
+
             }
             @media screen and (min-width: map-get($break-point, xtlg)) {
                 margin:-3rem auto 2rem -47rem;
-                
+
             }
             }
             .img--detail{
-            
+
                 background-image: url('../img/demo-right.png');
                 display: block;
                 background-repeat: no-repeat;
                 background-size:auto;
                 width:  5rem;
-                
-                
-                
+
+
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     display: block;
                     margin-left: 2rem;
                     background-size:18rem;
 
                 }
-                
-    
+
+
                     @media screen and (min-width: map-get($break-point, lg)) {
                         display: block;
                         width: auto;
@@ -759,15 +772,15 @@
                         background-size:24rem;
                         margin-left: 0;
 
-                        
+
                     }
                     @media screen and (min-width: map-get($break-point, mlg)) {
                         background-size:30rem;
                         margin-top: 5rem;
                         z-index: 996;
-                        
-                        
-                
+
+
+
                     }
                     @media screen and (min-width: map-get($break-point, xlg)) {
                         margin-top: 5rem;
@@ -778,10 +791,10 @@
                         background-size:40rem;
 
                         margin-top: 3rem;
-                
+
                     }
 
-                
+
             }
 
             .txt__liner--green-2{
@@ -793,25 +806,25 @@
                 font-size: 20px;
                 width: 100%;
                 line-height: 2rem;
-    
+
                     span{
                         border-bottom: solid 3px map-get($colors , primaryGreen);
-                        color: map-get($colors,primary ); 
+                        color: map-get($colors,primary );
                         font-style: bolder;
                     }
-    
-    
+
+
                 @media screen and (min-width: map-get($break-point, md)) {
                     margin:2rem auto auto 0;
                     font-size: 20px;
                     text-align: auto;
                     width: 100%;
-                    
+
                     line-height: 2rem;
-                    
+
                 }
                 @media screen and (min-width: map-get($break-point, lg)) {
-                    
+
                     width: 100%;
                 }
                 @media screen and (min-width: map-get($break-point, mlg)) {
@@ -822,17 +835,17 @@
                     font-size: 24px;
                     margin-top: 4rem;
 
-                    
+
                 }
 
-                
-    
+
+
             }
-            
-    
+
+
         }
-                
-    
+
+
 
 }
 
