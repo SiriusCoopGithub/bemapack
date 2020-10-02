@@ -187,6 +187,7 @@
 
 /* version Surface Duo 530px xx-s */
 @media screen and (min-width: break-point(xx-s)){
+
   .item-21 {
     grid-column: 1/6;
   }
@@ -194,7 +195,6 @@
     grid-column: 4 / 7;
     grid-row: 1 / 2;
     text-align: right;
-
   }
 
   .item-22 {
@@ -208,6 +208,14 @@
     margin-top: 0.1rem;
 
   }
+  .item-3{
+    grid-column: 1/7;
+    grid-row: 3/5;
+    margin-bottom: 16.8rem;
+    padding-bottom: 0.8rem;
+    margin-top: 29.9rem;
+  }
+
   .item-23 {
     grid-column: 5/7;
     grid-row: 2/3;
@@ -226,8 +234,15 @@
       margin-top: -2rem;
     }
   }
+  .item-4{
+    grid-column: 2/7;
+    grid-row: 4/6;
+    margin-top: -3.1rem;
+    margin-bottom: 0.5rem;
+    z-index: 4;
+  }
   .item-34{
-    margin-top: 1.9rem;
+    margin-top: -3.1rem;
     grid-column: 1/7;
     grid-row: 3/5
   }
@@ -314,6 +329,9 @@
   .item-21{
     grid-column: 1 / 6;
   }
+  .item-31{
+    grid-column: 3/7;
+  }
 
   .item-2{
     grid-column: 1/2;
@@ -341,6 +359,11 @@
     margin-top: 19.7rem;
     margin-left: 4rem;
     grid-column: 4/7;
+  }
+  .item-35{
+    display: grid;
+    grid-column: 5 / 7;
+    grid-row: 3 / 5;
   }
   .item-26 {
     grid-column: 1/3;

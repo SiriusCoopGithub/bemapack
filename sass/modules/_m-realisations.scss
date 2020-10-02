@@ -147,11 +147,11 @@
   /* version petit mobile xxxs 370px */
   @media screen and (min-width: break-point(xxxs)){
     .coverrelatif img{
-      width: 88%;
+      width: 86%;
       padding-left: 0.8rem;
     }
     .coverimage-ter img{
-      margin-left: 3rem;
+
       width: 157%;
     }
     .coverimage2middle {
@@ -201,7 +201,7 @@
       padding-right: 0.5rem;
     }
     .backimage > img{
-      max-width: 78%;
+      max-width: 64%;
     }
     .coverimage{
       bottom: 25rem;
@@ -219,7 +219,7 @@
       position: relative;
       left: -0.6rem;
       bottom: 19rem;
-      width: 89%;
+      width: 81%;
       padding-left: 5rem;
     }
 
@@ -277,6 +277,9 @@
       left: 2.1rem;
       top: -2.3rem;
     }
+    .backimage3 > img{
+      width: 94%;
+    }
     .coverimage{
       bottom: 12rem;
     }
@@ -292,6 +295,9 @@
     }
     .coverrelatif img {
       max-width: 81%;
+    }
+    .coverrelatif2 > img{
+      width: 147%;
     }
     .coverimage-ter{
       left: 5.3rem;
@@ -369,12 +375,28 @@
       left: 1.3rem;
       width: 72%;
     }
+    .coverrelatif2 > img{
+      width: 126%;
+      margin-top: 0rem;
+    }
+    .backimage-second3right > img{
+      width: 96%;
+    }
+    .coverrelatif-second3right  img{
+      width: 80%;
+      padding-top: 1rem;
+      margin-bottom: 1rem;
+      margin-top: -15rem;
+    }
 
   }
 
 
   /* petit PC portable md-plus 799px */
   @media screen and (min-width: break-point(md-plus)){
+    .backimage{
+      width: 67%;
+    }
 
     .backimage > img {
       position: relative;
