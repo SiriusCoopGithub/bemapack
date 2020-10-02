@@ -197,8 +197,15 @@
   }
   /* version très petite tablette Surface Duo xx-s 530px */
   @media screen and (min-width: break-point(xx-s)){
+    .title__primary2{
+      padding-right: 0.5rem;
+    }
+    .backimage > img{
+      max-width: 78%;
+    }
     .coverimage{
       bottom: 25rem;
+      width: 82%;
     }
     .coverimage-ter{
       left: 12.7rem;
@@ -213,7 +220,7 @@
       left: -0.6rem;
       bottom: 19rem;
       width: 89%;
-      padding-left: 6rem;
+      padding-left: 5rem;
     }
 
     .backimage-second2left{
@@ -247,10 +254,11 @@
       max-width: 96%;
       position: relative;
       left: 0rem;
-      top: -7rem;
+      top: -11.5rem;
     }
     .coverrelatif2 > img{
-      width: 109%;
+
+      width: 170%;
     }
 
   }
