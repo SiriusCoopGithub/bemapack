@@ -2863,9 +2863,8 @@ footer .l-footer .section__footer--right .btn--footer {
     padding-left: 0.8rem;
   }
   .m-wrap.realisation .coverimage-ter img {
-    width: 130%;
-    padding-left: 2.2rem;
-    bottom: 13.5rem;
+    margin-left: 3rem;
+    width: 157%;
   }
   .m-wrap.realisation .coverimage2middle {
     position: relative;
@@ -3686,6 +3685,7 @@ footer .l-footer .section__footer--right .btn--footer {
   .item-32 {
     grid-column: 5/7;
     grid-row: 2/3;
+    margin-top: 7.1rem;
   }
 
   .item-23 {
