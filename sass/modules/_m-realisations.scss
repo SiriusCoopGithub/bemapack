@@ -720,7 +720,7 @@
 
         @media screen and (min-width: map-get($break-point, md)) {
 
-            margin-left:-2rem;
+          
 
         }
         @media screen and (min-width: map-get($break-point, lg)) {
@@ -728,7 +728,7 @@
             grid-template-columns: 1fr 1fr;
             grid-row: 1;
             width: auto;
-            margin-left:-2rem;
+            
 
         }
             .title__primary {
@@ -778,7 +778,7 @@
             }
             .img--detail{
 
-                background-image: url('../img/demo-right.png');
+                background-image: url('../img/Demo-right.png');
                 display: block;
                 background-repeat: no-repeat;
                 background-size:auto;
