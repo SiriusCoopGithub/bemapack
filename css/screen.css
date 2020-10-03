@@ -2719,6 +2719,7 @@ footer .l-footer .section__footer--right .btn--footer {
   /* version très petite tablette Surface Duo xx-s 530px */
   /* version petite tablette  xs 600px */
   /* grande TABLETTE md = 740px */
+  /* nouveau break-point mdd 769px */
   /* petit PC portable md-plus 799px */
   /* petit PC portable lg 1024px */
   /* petit PC portable 1280px */
@@ -3077,6 +3078,35 @@ footer .l-footer .section__footer--right .btn--footer {
     margin-top: -15rem;
   }
 }
+@media screen and (min-width: 769px) {
+  .m-wrap.realisation .backimage > img {
+    left: -7.2rem;
+    max-width: 80%;
+  }
+  .m-wrap.realisation .coverimage {
+    bottom: 16rem;
+    width: 91%;
+  }
+  .m-wrap.realisation .coverrelatif-ter {
+    left: 18.5rem;
+    bottom: -3.1rem;
+    width: 94%;
+  }
+  .m-wrap.realisation .backimage-second img {
+    position: relative;
+    max-width: 100%;
+    left: -1.4rem;
+    top: -1rem;
+  }
+  .m-wrap.realisation .coverrelatif-second {
+    width: 67%;
+    margin-top: -7rem;
+  }
+  .m-wrap.realisation .coverrelatif-second img {
+    margin-left: 1rem;
+    margin-top: -9rem;
+  }
+}
 @media screen and (min-width: 799px) {
   .m-wrap.realisation .backimage {
     width: 67%;
@@ -3095,12 +3125,16 @@ footer .l-footer .section__footer--right .btn--footer {
   }
   .m-wrap.realisation .coverrelatif {
     position: relative;
-    left: 7.5rem;
-    bottom: -6.2rem;
-    width: 89%;
+    left: 6.5rem;
+    bottom: -3.2rem;
+    width: 79%;
   }
   .m-wrap.realisation .coverrelatif img {
     max-width: 68%;
+  }
+  .m-wrap.realisation .coverrelatif2 > img {
+    margin-top: -1rem;
+    margin-left: 0.4rem;
   }
   .m-wrap.realisation .coverrelatif-second {
     display: none;
@@ -3110,10 +3144,15 @@ footer .l-footer .section__footer--right .btn--footer {
     left: 4.9rem;
     bottom: -14.7rem;
   }
+  .m-wrap.realisation .coverrelatif-second2right > img {
+    width: 96%;
+    margin-left: 1.2rem;
+    margin-top: -4.2rem;
+  }
   .m-wrap.realisation .coverrelatif-ter {
     position: absolute;
-    left: 20.2rem;
-    bottom: -7.1rem;
+    left: 24.2rem;
+    bottom: -8.1rem;
     max-width: 152%;
   }
   .m-wrap.realisation .coverrelatif-ter img {
@@ -3131,9 +3170,9 @@ footer .l-footer .section__footer--right .btn--footer {
     top: 17rem;
   }
   .m-wrap.realisation .backimage-second2right > img {
-    max-width: 88%;
+    max-width: 92%;
     margin-left: 3.1rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
     padding-left: 0.5rem;
   }
   .m-wrap.realisation .backimage2 {
@@ -3146,6 +3185,16 @@ footer .l-footer .section__footer--right .btn--footer {
     top: 20rem;
     left: 1.3rem;
     width: 56%;
+  }
+  .m-wrap.realisation .coverrelatif-second3left img {
+    max-width: 82%;
+    position: relative;
+    left: 0.5rem;
+    top: -17.5rem;
+  }
+  .m-wrap.realisation .coverrelatif-second3right img {
+    width: 75%;
+    margin-left: 1.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -3645,7 +3694,6 @@ footer .l-footer .section__footer--right .btn--footer {
   margin-bottom: 1.4rem;
   padding-bottom: 0.8rem;
   margin-top: 3.1rem;
-  background: lightgray;
 }
 
 .item-36 {
@@ -3894,6 +3942,21 @@ footer .l-footer .section__footer--right .btn--footer {
     margin-top: 2.1rem;
   }
 }
+/* nouveau break-point mdd 769px */
+@media screen and (min-width: 769px) {
+  .item-4 {
+    grid-column: 1/5;
+    grid-row: 5/6;
+  }
+
+  .item-5 {
+    display: grid;
+    grid-column: 5/7;
+    grid-row: 5/6;
+    padding-left: 1.5rem;
+    background-color: yellow;
+  }
+}
 /* petit PC portable md-plus 799 */
 @media screen and (min-width: 799px) {
   .item-1 {
@@ -3941,9 +4004,9 @@ footer .l-footer .section__footer--right .btn--footer {
 
   .item-24 {
     margin-top: 14.5rem;
-    grid-column: 3/6;
+    grid-column: 2/6;
     margin-left: 2.6rem;
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
   }
 
   .item-5 {

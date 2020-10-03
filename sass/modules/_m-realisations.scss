@@ -388,6 +388,38 @@
       margin-bottom: 1rem;
       margin-top: -15rem;
     }
+  }
+  /* nouveau break-point mdd 769px */
+  @media screen and (min-width: break-point(mdd)){
+    .backimage > img {
+      left: -7.2rem;
+      max-width: 80%;
+    }
+    .coverimage {
+      bottom: 16rem;
+      width: 91%;
+    }
+    .coverrelatif-ter {
+      left: 18.5rem;
+      bottom: -3.1rem;
+      width: 94%;
+    }
+    .backimage-second img {
+      position: relative;
+      max-width: 100%;
+      left: -1.4rem;
+      top: -1rem;
+    }
+    .coverrelatif-second {
+      width: 67%;
+      margin-top: -7rem;
+    }
+    .coverrelatif-second img{
+      margin-left: 1rem;
+    margin-top: -9rem
+    }
+
+
 
   }
 
@@ -415,12 +447,16 @@
 
     .coverrelatif {
       position: relative;
-      left: 7.5rem;
-      bottom: -6.2rem;
-      width: 89%;
+      left: 6.5rem;
+      bottom: -3.2rem;
+      width: 79%;
     }
     .coverrelatif img {
       max-width: 68%;
+    }
+    .coverrelatif2 > img{
+      margin-top: -1rem;
+      margin-left: 0.4rem;
     }
 
     .coverrelatif-second {
@@ -433,12 +469,16 @@
       bottom: -14.7rem;
      // border: 1px solid red;
     }
-
+    .coverrelatif-second2right > img {
+      width: 96%;
+      margin-left: 1.2rem;
+      margin-top: -4.2rem;
+    }
 
     .coverrelatif-ter {
       position: absolute;
-      left: 20.2rem;
-      bottom: -7.1rem;
+      left: 24.2rem;
+      bottom: -8.1rem;
       max-width: 152%;
 
     }
@@ -458,9 +498,9 @@
       top: 17rem;
     }
     .backimage-second2right > img{
-      max-width: 88%;
+      max-width: 92%;
       margin-left: 3.1rem;
-      margin-top: 10rem;
+      margin-top: 6rem;
       padding-left: 0.5rem;
     }
     .backimage2{
@@ -473,6 +513,16 @@
       top: 20rem;
       left: 1.3rem;
       width: 56%;
+    }
+    .coverrelatif-second3left img {
+      max-width: 82%;
+      position: relative;
+      left: 0.5rem;
+      top: -17.5rem;
+    }
+    .coverrelatif-second3right img {
+      width: 75%;
+      margin-left: 1.5rem;
     }
 
   }
