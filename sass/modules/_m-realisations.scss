@@ -3,7 +3,7 @@
 .m-wrap.realisation{
   width: 94%;
   margin: auto;
-  border: 1px solid green;
+  //border: 1px solid green;
 
   p{
     color: color(primary);
@@ -30,12 +30,8 @@
     text-transform: capitalize;
     font-weight: 800;
   }
-  .bordure{
-    border: 2px dotted darkorchid;
-  }
-  .grid-containerAmoi3{
-    background-color: aliceblue;
-  }
+
+
   .backimage {
     padding-left: 0.6rem;
   }
@@ -179,11 +175,13 @@
     .coverimage{
       bottom: 21rem;
     }
-    .coverimage-ter {
-      width: 28%;
-      left: 1.9rem;
-      bottom: 15rem;
+    .coverimage-ter{
       padding-left: 0.8rem;
+      display: block;
+      position: relative;
+      width: 25%;
+      left: 11.7rem;
+      bottom: 17.3rem;
     }
 
     .coverimage2middle {
@@ -610,7 +608,8 @@
   .coverrelatif-second3right img {
     width: 71%;
     margin-left: 2rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 2.7rem;
+
   }
   .coverrelatif-second3left img {
     max-width: 75%;
