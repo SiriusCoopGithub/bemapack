@@ -3290,10 +3290,18 @@ footer .l-footer .section__footer--right .btn--footer {
     left: 7.5rem;
     bottom: -4.2rem;
   }
+  .m-wrap.realisation .coverrelatif img {
+    max-width: 62%;
+  }
   .m-wrap.realisation .backimage-second {
     padding-left: 0.8rem;
     margin-left: 1.6rem;
     margin-top: -13rem;
+  }
+  .m-wrap.realisation .backimage-second > img {
+    max-width: 52%;
+    left: 9.5rem;
+    top: 3.1rem;
   }
   .m-wrap.realisation .coverimage2middle {
     bottom: 18.8rem;
@@ -3307,6 +3315,25 @@ footer .l-footer .section__footer--right .btn--footer {
   }
   .m-wrap.realisation .coverrelatif-second2right {
     left: 13.9rem;
+  }
+  .m-wrap.realisation .coverrelatif-second2right > img {
+    width: 96%;
+    margin-left: 1.4rem;
+    margin-top: 0.8rem;
+  }
+  .m-wrap.realisation .coverrelatif2 > img {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    width: 110%;
+  }
+  .m-wrap.realisation .coverrelatif-second3left img {
+    max-width: 70%;
+    left: 1.1rem;
+  }
+  .m-wrap.realisation .coverrelatif-second3right img {
+    width: 71%;
+    margin-left: 2rem;
+    margin-bottom: 2.7rem;
   }
 }
 @media screen and (min-width: 1360px) {
@@ -4165,6 +4192,7 @@ footer .l-footer .section__footer--right .btn--footer {
   .item-35 {
     grid-column: 6/7;
     grid-row: 2/5;
+    margin-top: 5rem;
   }
 
   .item-26 {
@@ -4186,16 +4214,16 @@ footer .l-footer .section__footer--right .btn--footer {
 
   .item-37 {
     grid-column: 3/6;
-    grid-row: 5/6;
-    margin-left: -3.3rem;
+    grid-row: 4/6;
+    margin-left: -1.3rem;
     margin-top: 6rem;
   }
 }
 /* petit PC portable mlg 1280px */
 @media screen and (min-width: 1280px) {
   .item-4 {
-    grid-column: 3/6;
-    z-index: 6;
+    grid-column: 4/6;
+    margin-left: 3.5rem;
   }
 
   .item-6 {

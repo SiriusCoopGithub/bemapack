@@ -625,10 +625,19 @@
       left: 7.5rem;
       bottom: -4.2rem
     }
+    .coverrelatif img {
+      max-width: 62%;
+    }
+
     .backimage-second {
       padding-left: 0.8rem;
       margin-left: 1.6rem;
       margin-top: -13rem;
+    }
+    .backimage-second > img {
+      max-width: 52%;
+      left: 9.5rem;
+      top: 3.1rem;
     }
     .coverimage2middle {
       bottom: 18.8rem;
@@ -642,6 +651,25 @@
     }
     .coverrelatif-second2right {
       left: 13.9rem;
+    }
+    .coverrelatif-second2right > img {
+      width: 96%;
+      margin-left: 1.4rem;
+      margin-top: 0.8rem;
+    }
+    .coverrelatif2 > img {
+      margin-top: -3rem;
+      margin-left: 3rem;
+      width: 110%;
+    }
+    .coverrelatif-second3left img {
+      max-width: 70%;
+      left: 1.1rem;
+    }
+    .coverrelatif-second3right img {
+      width: 71%;
+      margin-left: 2rem;
+      margin-bottom: 2.7rem;
     }
 
   }

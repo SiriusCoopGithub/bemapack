@@ -537,6 +537,7 @@
     .item-35{
       grid-column: 6/7;
       grid-row: 2/5;
+      margin-top: 5rem;
     }
     .item-26{
       margin-top: 8.9rem;
@@ -555,8 +556,8 @@
     }
     .item-37 {
       grid-column: 3/6;
-      grid-row: 5/6;
-      margin-left: -3.3rem;
+      grid-row: 4/6;
+      margin-left: -1.3rem;
       margin-top: 6rem;
     }
   }
@@ -564,8 +565,8 @@
 /* petit PC portable mlg 1280px */
   @media screen and (min-width: break-point(mlg)){
     .item-4{
-      grid-column: 3 / 6;
-      z-index:6;
+      grid-column: 4/6;
+    margin-left: 3.5rem;
     }
     .item-6 {
       grid-column: 4/7;
