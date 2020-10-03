@@ -418,7 +418,20 @@
       margin-left: 1rem;
     margin-top: -9rem
     }
-
+    .coverrelatif2 > img {
+      margin-top: -2rem;
+      width: 117%;
+      margin-left: 1.7rem;
+    }
+    .coverrelatif-second2left img {
+      top: 20rem;
+      left: 1.3rem;
+      width: 85%;
+    }
+    .coverrelatif-second3left img {
+      left: 0.2rem;
+      top: -13.5rem;
+    }
 
 
   }
@@ -770,7 +783,7 @@
 
         @media screen and (min-width: map-get($break-point, md)) {
 
-          
+
 
         }
         @media screen and (min-width: map-get($break-point, lg)) {
@@ -778,7 +791,7 @@
             grid-template-columns: 1fr 1fr;
             grid-row: 1;
             width: auto;
-            
+
 
         }
             .title__primary {
