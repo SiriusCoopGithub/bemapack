@@ -547,14 +547,15 @@
       position: relative;
       left: 6.5rem;
       bottom: -4.2rem;
-      width: 85%;
+      width: 73%;
     }
     .coverrelatif-ter {
-        position: absolute;
-        left: 22rem;
-        bottom: -7.2rem;
-        max-width: 100%;
-
+      position: absolute;
+      left: 27rem;
+      bottom: -7.2rem;
+    }
+    .backimage {
+      width: 61%;
     }
     .backimage2 {
       width: 90%;
@@ -578,6 +579,21 @@
   .coverrelatif-second2left img {
     top: 8.1rem;
     left: 1.8rem;
+  }
+  .backimage-second > img {
+    max-width: 59%;
+    left: 7.5rem;
+    top: 3rem;
+  }
+  .coverrelatif-second2right > img {
+    width: 96%;
+    margin-left: 1.6rem;
+    margin-top: -1.2rem;
+  }
+  .coverrelatif2 > img {
+    margin-top: -1rem;
+    margin-left: 1.4rem;
+    width: 102%;
   }
 
 }
