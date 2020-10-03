@@ -560,6 +560,12 @@
     .backimage2 {
       width: 90%;
     }
+    .backimage3 {
+      width: 77%;
+    }
+    .backimage3 > img {
+      width: 109%;
+    }
     .coverimage2middle {
       bottom: 14.8rem;
       width: 77%;
@@ -593,8 +599,23 @@
   .coverrelatif2 > img {
     margin-top: -1rem;
     margin-left: 1.4rem;
-    width: 102%;
+    width: 134%;
   }
+  .backimage-second3right > img {
+    width: 117%;
+    margin-top: 15rem;
+    padding-right: 1rem;
+    margin-left: -1rem;
+  }
+  .coverrelatif-second3right img {
+    width: 71%;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
+  }
+  .coverrelatif-second3left img {
+    max-width: 75%;
+  }
+
 
 }
   /* petit PC portable 1280px */
