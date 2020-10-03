@@ -2805,8 +2805,8 @@ footer .l-footer .section__footer--right .btn--footer {
 }
 .m-wrap.realisation .coverimage3middle {
   position: relative;
-  left: 0.4rem;
-  bottom: 18rem;
+  left: -1rem;
+  bottom: 13rem;
   width: 84%;
   padding-left: 5rem;
 }
@@ -2832,9 +2832,8 @@ footer .l-footer .section__footer--right .btn--footer {
   z-index: 5;
 }
 .m-wrap.realisation .coverrelatif2 > img {
-  width: 190%;
-  margin-top: 2rem;
-  margin-left: -2rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
 }
 .m-wrap.realisation .coverrelatif-second img {
   max-width: 30%;
@@ -2857,6 +2856,8 @@ footer .l-footer .section__footer--right .btn--footer {
     padding-left: 0.8rem;
   }
   .m-wrap.realisation .coverimage-ter img {
+    margin-left: 4rem;
+    margin-top: -3rem;
     width: 157%;
   }
   .m-wrap.realisation .coverimage2middle {
@@ -2888,6 +2889,9 @@ footer .l-footer .section__footer--right .btn--footer {
     width: 25%;
     left: 11.7rem;
     bottom: 17.3rem;
+  }
+  .m-wrap.realisation .coverimage-ter img {
+    margin-left: -1rem;
   }
   .m-wrap.realisation .coverimage2middle {
     position: relative;
@@ -3098,8 +3102,8 @@ footer .l-footer .section__footer--right .btn--footer {
     margin-top: -7rem;
   }
   .m-wrap.realisation .coverrelatif-second img {
-    margin-left: 1rem;
-    margin-top: -9rem;
+    margin-left: 2rem;
+    margin-top: -10rem;
   }
   .m-wrap.realisation .coverrelatif2 > img {
     margin-top: -2rem;
@@ -3142,7 +3146,7 @@ footer .l-footer .section__footer--right .btn--footer {
     max-width: 68%;
   }
   .m-wrap.realisation .coverrelatif2 > img {
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: 0.4rem;
   }
   .m-wrap.realisation .coverrelatif-second {
@@ -3154,9 +3158,9 @@ footer .l-footer .section__footer--right .btn--footer {
     bottom: -14.7rem;
   }
   .m-wrap.realisation .coverrelatif-second2right > img {
-    width: 96%;
-    margin-left: 1.2rem;
-    margin-top: -4.2rem;
+    width: 102%;
+    margin-left: 3.2rem;
+    margin-top: 1.8rem;
   }
   .m-wrap.realisation .coverrelatif-ter {
     position: absolute;
@@ -3247,7 +3251,7 @@ footer .l-footer .section__footer--right .btn--footer {
     left: -2rem;
   }
   .m-wrap.realisation .coverrelatif-second2left img {
-    top: 8.1rem;
+    top: 1.1rem;
     left: 1.8rem;
   }
   .m-wrap.realisation .backimage-second > img {
@@ -3256,7 +3260,7 @@ footer .l-footer .section__footer--right .btn--footer {
     top: 3rem;
   }
   .m-wrap.realisation .coverrelatif-second2right > img {
-    width: 96%;
+    width: 127%;
     margin-left: 1.6rem;
     margin-top: -1.2rem;
   }
@@ -3312,14 +3316,14 @@ footer .l-footer .section__footer--right .btn--footer {
     left: 13.9rem;
   }
   .m-wrap.realisation .coverrelatif-second2right > img {
-    width: 96%;
+    width: 118%;
     margin-left: 1.4rem;
     margin-top: 0.8rem;
   }
   .m-wrap.realisation .coverrelatif2 > img {
     margin-top: -3rem;
     margin-left: 3rem;
-    width: 110%;
+    width: 103%;
   }
   .m-wrap.realisation .coverrelatif-second3left img {
     max-width: 70%;
@@ -3327,11 +3331,21 @@ footer .l-footer .section__footer--right .btn--footer {
   }
   .m-wrap.realisation .coverrelatif-second3right img {
     width: 71%;
-    margin-left: 2rem;
-    margin-bottom: 2.7rem;
+    margin-left: 3rem;
+    margin-bottom: 4.7rem;
+  }
+  .m-wrap.realisation .coverrelatif-second2left img {
+    width: 75%;
+    margin-left: 4rem;
+    margin-bottom: 22.7rem;
   }
 }
 @media screen and (min-width: 1360px) {
+  .m-wrap.realisation .coverrelatif-second3right img {
+    width: 75%;
+    margin-left: 4rem;
+    margin-bottom: 22.7rem;
+  }
   .m-wrap.realisation .title__primary2 {
     font-size: 1.6rem;
   }
@@ -3840,6 +3854,10 @@ footer .l-footer .section__footer--right .btn--footer {
     padding-top: 1rem;
     margin-top: 9.1rem;
   }
+
+  .item-4 {
+    padding-top: 3rem;
+  }
 }
 /* version Surface Duo 530px xx-s */
 @media screen and (min-width: 530px) {
@@ -3861,7 +3879,6 @@ footer .l-footer .section__footer--right .btn--footer {
   .item-32 {
     grid-column: 5/7;
     grid-row: 2/3;
-    margin-top: 0.1rem;
   }
 
   .item-3 {
@@ -3897,6 +3914,7 @@ footer .l-footer .section__footer--right .btn--footer {
     grid-row: 4/6;
     margin-top: -3.1rem;
     margin-bottom: 0.5rem;
+    padding-top: 4rem;
     z-index: 4;
   }
 
@@ -3971,6 +3989,7 @@ footer .l-footer .section__footer--right .btn--footer {
     padding-bottom: 0.8rem;
     margin-bottom: 1rem;
     margin-top: 1.4rem;
+    padding-top: 6rem;
   }
 }
 /* grande TABLETTE md  740px */
@@ -4155,6 +4174,7 @@ footer .l-footer .section__footer--right .btn--footer {
 
   .item-27 {
     padding-left: 0.5rem;
+    padding-top: 2rem;
   }
 }
 /* petit PC portable lg 1024px */
@@ -4205,6 +4225,7 @@ footer .l-footer .section__footer--right .btn--footer {
     grid-column: 3/6;
     margin-top: 15.5rem;
     margin-bottom: 4rem;
+    padding-right: 4rem;
   }
 
   .item-34 {
