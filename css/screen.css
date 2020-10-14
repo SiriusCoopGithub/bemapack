@@ -5073,10 +5073,6 @@ footer .l-footer .section__footer--right .btn--footer {
   display: block;
   right: 0;
 }
-/* line 8, ../sass/modules/_m-catalogue.scss */
-.l-section__banner--catalogue img {
-  width: 100%;
-}
 @media screen and (min-width: 740px) {
   /* line 2, ../sass/modules/_m-catalogue.scss */
   .l-section__banner--catalogue {
