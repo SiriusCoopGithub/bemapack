@@ -1,4 +1,22 @@
 
+.l-section__banner--catalogue{
+    background-color: map-get($colors , primary );
+    height:7rem;
+    width: 120%;
+    display: block;
+    right: 0;
+    img{
+        width: 100%;
+    }
+
+    @media screen and (min-width: map-get($break-point, md)) {
+        height:4rem;  
+        
+    }
+}
+a{
+    color:white;
+}
     .section__test{
         display:grid;
         grid-template-rows: 1fr 1fr 1fr;

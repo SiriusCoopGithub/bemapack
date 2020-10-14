@@ -869,6 +869,7 @@
         width: 100%;
         margin-top: 9rem;
         padding-top: 8rem;
+        padding-bottom: 4rem;
 
 
     }
@@ -882,7 +883,7 @@
     @media screen and (min-width: map-get($break-point, xtlg)) {
 
         padding-bottom: 5rem;
-        margin-top: 0rem;
+        margin-top: 10rem;
         padding-top: 0rem;
 
 
@@ -987,14 +988,14 @@
 
                     }
                     @media screen and (min-width: map-get($break-point, xlg)) {
-                        margin-top: 5rem;
+                        margin-top: 0rem;
                         background-size:36rem;
 
                     }
                     @media screen and (min-width: map-get($break-point, xtlg)) {
                         background-size:40rem;
 
-                        margin-top: 3rem;
+                        margin-top: -2rem;
 
                     }
 
